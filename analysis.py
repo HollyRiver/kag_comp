@@ -5,6 +5,9 @@ import pandas as pd
 class file_load :
     """_summary_
 
+    Requirement :
+        module : pandas, xgboost
+        linux terminal setting : kaggle. If your envirment doesn't have kaggle command, try this command to your terminal; conda install -c conda-forge kaggle / pip install kaggle
     Returns:
         _type_: _description_
     """
@@ -68,3 +71,5 @@ class file_load :
     
 # class eda :
 #     def auto_eda(self, train) :
+
+# class xg_fitting :
