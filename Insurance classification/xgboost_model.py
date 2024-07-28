@@ -40,6 +40,9 @@ train_data = pd.get_dummies(sum_train.drop(["id"], axis = 1).assign(Region_Code 
 X = train_data.drop("Response", axis = 1)
 y = train_data.Response
 
+XX = pd.get_dummies(df_test.drop(["id"], axis = 1).assign(Region_Code = lambda _df : _df.Region_Code.astype(int).astype(str)), drop_first = True)\
+    .rename({'Vehicle_Age_< 1 Year' : "Vehicle_Age_1_Under", "Vehicle_Age_> 2 Years" : "Vehicle_Age_2_Under"}, axis = 1)
+
 ## new predictor
 
 predictr_add = xgb.XGBClassifier()
@@ -67,11 +70,18 @@ train_data = pd.get_dummies(sum_train.drop(["id"], axis = 1).assign(Region_Code 
     
 X = train_data.drop("Response", axis = 1)
 y = train_data.Response
+XX = pd.get_dummies(df_test.drop(["id"], axis = 1).assign(Region_Code = lambda _df : _df.Region_Code.astype(int).astype(str)), drop_first = True)\
+    .rename({'Vehicle_Age_< 1 Year' : "Vehicle_Age_1_Under", "Vehicle_Age_> 2 Years" : "Vehicle_Age_2_Under"}, axis = 1)
 
-## predictor, cross validation
+## predictor, cross validation (hyperparameter tuning)
 
-predictr = xgb.XGBClassifier(tree_method = 'gpu_hist', gpu_id = 0)
+predictr = xgb.XGBClassifier(tree_method = 'hist', device = "cuda:0", max_depth = 35, gamma = 0.1, colsample_bytree = 0.7, eval_metric = "auc")
 predictr.fit(X, y)
+
+yy_hat = predictr.predict(XX)
+
+submission = df_test[["id"]].assign(Response = yy_hat)
+load.submit_file(submission)
 
 help(xgb.XGBClassifier)
 
@@ -99,3 +109,4 @@ gscv_gamma.fit(X, y)
 gscv_estim.fit(X, y)
 gscv_colsample.fit(X, y)
 
+GridSearchCV(estimator = predictr, scoring = "roc_auc")
