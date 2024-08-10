@@ -49,9 +49,38 @@ load.submit_file(submission)
 
 rscv2.best_estimator_.get_params()
 
-final_predictr = xgb.XGBClassifier(tree_method = "hist", device = "cuda", max_depth = 0, gamma = "0.01", colsample_bytree = 0.19, n_estimators = 175, eval_metric = "auc", min_child_weight = 59)
+final_predictr = xgb.XGBClassifier(tree_method = "hist", device = "cuda", max_depth = 30, gamma = 0.01, colsample_bytree = 0.19, n_estimators = 175, eval_metric = "auc", min_child_weight = 59)
 final_predictr.fit(X, y)
 
 yyhat = final_predictr.predict(XX)
 submission = df_test[["id"]].assign(Response = yyhat)
 load.submit_file(submission)
+
+param_dist3 = {
+    "learning_rate" : [0.001*i for i in range(200)],
+    "reg_alpha" : [10**(3-i) for i in range(10)]
+}
+
+rscv2.best_estimator_
+
+predictr3 = rscv2.best_estimator_
+predictr3
+
+rscv4 = RandomizedSearchCV(estimator = predictr3, param_distributions = param_dist3, cv = StratifiedKFold(n_splits = 5, shuffle = True), refit = True, scoring = "roc_auc")
+rscv4.fit(X, y)
+
+yyhat = rscv4.best_estimator_.predict(XX)
+submission = df_test[["id"]].assign(Response = yyhat)
+load.submit_file(submission)
+
+# XGBClassifier(base_score=None, booster=None, callbacks=None,
+            #   colsample_bylevel=None, colsample_bynode=None,
+            #   colsample_bytree=0.19, device='cuda', early_stopping_rounds=None,
+            #   enable_categorical=False, eval_metric=None, feature_types=None,
+            #   gamma=0.01, grow_policy=None, importance_type=None,
+            #   interaction_constraints=None, learning_rate=None, max_bin=None,
+            #   max_cat_threshold=None, max_cat_to_onehot=None,
+            #   max_delta_step=None, max_depth=30, max_leaves=None,
+            #   min_child_weight=59, missing=nan, monotone_constraints=None,
+            #   multi_strategy=None, n_estimators=175, n_jobs=None,
+            #   num_parallel_tree=None, random_state=None, ...)
