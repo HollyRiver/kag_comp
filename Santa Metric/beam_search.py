@@ -14,32 +14,25 @@ from kaggle_evaluate import PerplexityCalculator
 
 
 evaluatr = PerplexityCalculator("google/gemma-2-9b")
-greedy_starter = pd.read_csv("greedy2.csv", index_col = 0)
+df_sample = pd.read_csv("sample_submission.csv", index_col = 0)
 
-all_tokens = greedy_starter.text.str.split().to_list()
-beam_size = [5, 10, 10, 15, 15, 15]
+all_tokens = df_sample.text.str.split().to_list()
+beam_size = [5, 10, 10, 15, 25, 50]
 best_word = []
 
 for i, tokens in enumerate(all_tokens) :
-    token_start = tokens[0]
     width = beam_size[i]
-    token_list = [copy.deepcopy(tokens[1:]) for _ in range(width)]
-    beam_set = []
+    token_list = [copy.deepcopy(tokens) for _ in range(width)]
+    beam_set = [[tok] for tok in copy.deepcopy(tokens)]
     
-    for j in range(len(tokens)-1) :
+    for j in range(len(tokens)) :
         word_list = []
         
-        if beam_set == [] :            
+        if j == 0 :            
             for t in token_list[0] :
-                word_list.append(" ".join([token_start] + [t]))
+                word_list.append(t)
             
             perplexities = np.array(evaluatr.get_perplexity(word_list, batch_size = 256))
-            min_indexs = perplexities.argsort()[:width]
-            token_len = len(token_list[0])
-            beam_set = [[token_start, token_list[min_index//token_len][min_index%token_len]] for min_index in min_indexs]
-        
-            for l in range(width) :
-                del token_list[l][min_indexs[l]%token_len]
             
         else :
             for m, beam in enumerate(beam_set) :
@@ -52,19 +45,17 @@ for i, tokens in enumerate(all_tokens) :
             else :
                 perplexities = np.array(evaluatr.get_perplexity(word_list, batch_size = 256))
                 
-            min_indexs = perplexities.argsort()[:width]
-            token_len = len(token_list[0])
-            tmp = copy.deepcopy(beam_set)
-            beam_set = [tmp[min_index//token_len] + [token_list[min_index//token_len][min_index%token_len]] for min_index in min_indexs]
+        min_indexs = perplexities.argsort()[:width]
+        token_len = len(token_list[0])
+        tmp = copy.deepcopy(beam_set)
+        beam_set = [tmp[min_index//token_len] + [token_list[min_index//token_len][min_index%token_len]] for min_index in min_indexs]
+    
+        tmp = copy.deepcopy(token_list)
         
-            tmp = copy.deepcopy(token_list)
-            
-            for l, min_index in enumerate(min_indexs) :
-                token_list[l] = copy.deepcopy(tmp[min_index//token_len])
-                del token_list[l][min_index%token_len]
+        for l, min_index in enumerate(min_indexs) :
+            token_list[l] = copy.deepcopy(tmp[min_index//token_len])
+            del token_list[l][min_index%token_len]
                 
-
-    print(f"cycle rooped")
         
     best_word.append(beam_set[perplexities.argmin()])
     
