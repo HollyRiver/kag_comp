@@ -33,8 +33,8 @@ for i, tokens in enumerate(all_tokens) :
             for t in token_list[0] :
                 word_list.append(" ".join([token_start] + [t]))
             
-            perplexities = np.array(evaluatr.get_perplexity(word_list, batch_size = 1024))
-            min_indexs = np.where(perplexities.argsort() < width)[0]
+            perplexities = np.array(evaluatr.get_perplexity(word_list, batch_size = 256))
+            min_indexs = perplexities.argsort()[:width]
             token_len = len(token_list[0])
             beam_set = [[token_start, token_list[min_index//token_len][min_index%token_len]] for min_index in min_indexs]
         
@@ -45,9 +45,14 @@ for i, tokens in enumerate(all_tokens) :
             for m, beam in enumerate(beam_set) :
                 for t in token_list[m] :
                     word_list.append(" ".join(beam + [t]))
+                    
+            if len(word_list[0]) > 40 :
+                perplexities = np.array(evaluatr.get_perplexity(word_list, batch_size = 128))
                 
-            perplexities = np.array(evaluatr.get_perplexity(word_list, batch_size = 1024))
-            min_indexs = np.where(perplexities.argsort() < width)[0]
+            else :
+                perplexities = np.array(evaluatr.get_perplexity(word_list, batch_size = 256))
+                
+            min_indexs = perplexities.argsort()[:width]
             token_len = len(token_list[0])
             tmp = copy.deepcopy(beam_set)
             beam_set = [tmp[min_index//token_len] + [token_list[min_index//token_len][min_index%token_len]] for min_index in min_indexs]
@@ -61,7 +66,7 @@ for i, tokens in enumerate(all_tokens) :
 
     print(f"cycle rooped")
         
-    best_word.append(beam_set[perplexities.argmax()])
+    best_word.append(beam_set[perplexities.argmin()])
     
 
 df_submission = pd.DataFrame({"id":[0,1,2,3,4,5], "text":[" ".join(w) for w in best_word]})

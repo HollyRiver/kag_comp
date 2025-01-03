@@ -219,44 +219,51 @@ class PerplexityCalculator:
         
             with torch.no_grad():
                 # Process each sequence independently
-                # Explicitly add sequence boundary tokens to the text
-                text_with_special = [f"{self.tokenizer.bos_token}{text}{self.tokenizer.eos_token}" for text in input_batch]
+                for text in input_texts:
+                    # Explicitly add sequence boundary tokens to the text
+                    text_with_special = f"{self.tokenizer.bos_token}{text}{self.tokenizer.eos_token}"
 
-                # Tokenize
-                model_inputs = self.tokenizer(
-                    text_with_special,
-                    return_tensors='pt',
-                    add_special_tokens=False,
-                    padding=True
-                )
+                    # Tokenize
+                    model_inputs = self.tokenizer(
+                        text_with_special,
+                        return_tensors='pt',
+                        add_special_tokens=False,
+                        padding=True
+                    )
 
-                if 'token_type_ids' in model_inputs:
-                    model_inputs.pop('token_type_ids')
+                    if 'token_type_ids' in model_inputs:
+                        model_inputs.pop('token_type_ids')
 
-                model_inputs = {k: v.to(DEVICE) for k, v in model_inputs.items()}
+                    model_inputs = {k: v.to(DEVICE) for k, v in model_inputs.items()}
 
-                # Get model output
-                output = self.model(**model_inputs, use_cache=False)
-                logits = output['logits']
+                    # Get model output
+                    output = self.model(**model_inputs, use_cache=False)
+                    logits = output['logits']
+                    
+                    label = model_inputs["input_ids"]
+                    label[label == self.tokenizer.pad_token_type_id] = PAD_TOKEN_LABEL_ID
 
-                label = model_inputs['input_ids']
-                label[label == self.tokenizer.pad_token_id] = PAD_TOKEN_LABEL_ID
+                    # Shift logits and labels for calculating loss
+                    shift_logits = logits[..., :-1, :].contiguous()  # Drop last prediction
+                    shift_labels = label[..., 1:].contiguous()  # Drop first input
 
-                # Shift logits and labels for calculating loss
-                shift_logits = logits[..., :-1, :].contiguous()  # Drop last prediction
-                shift_labels = label[..., 1:].contiguous()  # Drop first input
+                    # Calculate token-wise loss
+                    loss = self.loss_fct(
+                        shift_logits.view(-1, shift_logits.size(-1)),
+                        shift_labels.view(-1)
+                    )
 
-                # Calculate token-wise loss
-                loss = self.loss_fct(
-                    shift_logits.view(-1, shift_logits.size(-1)),
-                    shift_labels.view(-1)
-                )
+                    # Calculate average loss
+                    loss = self.loss_fct(
+                        shift_logits.view(-1, shift_logits.size(-1)),
+                        shift_labels.view(-1)
+                    )
 
-                loss = loss.view(len(logits), -1)
-                valid_length = (shift_labels != PAD_TOKEN_LABEL_ID).sum(dim=-1)
-                loss = torch.sum(loss, -1) / valid_length
+                    loss = loss.view(len(logits), -1)
+                    valid_length = (shift_labels != PAD_TOKEN_LABEL_ID).sum(dim=-1)
+                    loss = torch.sum(loss, -1) / valid_length
 
-                loss_list += loss.cpu().tolist()
+                    loss_list += loss.cpu().tolist()
 
 
         ppl = [exp(i) for i in loss_list]
