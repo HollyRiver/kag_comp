@@ -23,7 +23,7 @@ best_word = []
 for i, tokens in enumerate(all_tokens) :
     width = beam_size[i]
     token_list = [copy.deepcopy(tokens) for _ in range(width)]
-    beam_set = [[tok] for tok in copy.deepcopy(tokens)]
+    beam_set = [[] for _ in range(len(token_list[0]))]
     
     for j in range(len(tokens)) :
         word_list = []
