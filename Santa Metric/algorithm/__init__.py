@@ -1,2 +1,2 @@
-from .algorithmes import genetic
+from .Genetic import genetic
 from .kaggle_evaluate import PerplexityCalculator

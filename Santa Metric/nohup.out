@@ -23,3 +23,4 @@ Successfully submitted to Santa 2024 - The Perplexity Permutation PuzzleTracebac
     genomes[i] = np.random.permutation(samples[0].split())
                                        ^^^^^^^
 NameError: name 'samples' is not defined
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.31it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.28it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.27it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.26it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.24it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.27it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.28it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.35it/s]

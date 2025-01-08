@@ -159,21 +159,23 @@ class genetic :
             childs = self.crossover(self.parents_indx, self.genomes, self.dupl)
             self.genomes = self.mutation(childs)
             
+            genome_set = list(set([" ".join(genome) for genome in self.genomes]))
+            
             self.evaluatr.clear_gpu_memory()
             self.evaluatr = PerplexityCalculator("google/gemma-2-9b")
             
-            perplexities = np.array(self.evaluatr.get_perplexity([" ".join(genome) for genome in self.genomes], batch_size = 1024))
+            perplexities = np.array(self.evaluatr.get_perplexity(genome_set, batch_size = 1024))
             
             if self.crossover_method == "roulette" :
                 per_sum = sum(1/(perplexities**3))
                 proba = 1/(perplexities**3)/per_sum
-                self.parents_indx = np.random.choice([i for i in range(len(self.genomes))], p = proba, size = 10, replace = False)
+                self.parents_indx = np.random.choice([i for i in range(len(genome_set))], p = proba, size = 10, replace = False)
                 
             elif self.crossover_method == "rank" :
                 self.parents_indx = perplexities.argsort()[:self.ranking]
             
             if perplexities.min() < self.best_genome[1] :
-                self.best_genome = [self.genomes[perplexities.argmin()], perplexities.min()]
+                self.best_genome = [genome_set[perplexities.argmin()], perplexities.min()]
                 print(f"best genome : {self.best_genome}")
                 self.stack = 0
                 
