@@ -4,9 +4,11 @@ from algorithm.kaggle_evaluate import PerplexityCalculator
 from typing import List
 
 class genetic :
-    def __init__(self, sample : str, initial_times = 1000, max_stack = 20, cross_area = [5, 10, 20], cross_size = 1000, mutation_chances = 2, dupl = False, crossover_method = "roulette", parent_size = 10) :
+    def __init__(self, sample : str, initial_times = 1000, max_stack = 20, cross_area = [5, 10, 20], cross_size = 1000, mutation_chances = 2, dupl = False, crossover_method = "roulette", mixture_size = None, parent_size = 10, batch_size = 1024, load_in_8bit = False) :
         ## create evaluator
-        self.evaluatr = PerplexityCalculator("google/gemma-2-9b")
+        self.batch_size = batch_size
+        self.load_in_8bit = load_in_8bit
+        self.evaluatr = PerplexityCalculator("google/gemma-2-9b", load_in_8bit = self.load_in_8bit)
         
         ## genome generate
         self.genomes = ["" for _ in range(initial_times)]
@@ -27,7 +29,7 @@ class genetic :
         self.dupl = dupl
         
         ## getting perplexities and parents
-        perplexities = np.array(self.evaluatr.get_perplexity([" ".join(genome) for genome in self.genomes], batch_size = 1024))
+        perplexities = np.array(self.evaluatr.get_perplexity([" ".join(genome) for genome in self.genomes], batch_size = self.batch_size))
         
         if crossover_method == "roulette" :
             per_sum = sum(1/(perplexities**3))
@@ -37,8 +39,37 @@ class genetic :
         elif crossover_method == "rank" :
             self.ranking = parent_size
             self.parents_indx = perplexities.argsort()[:parent_size]
+            
+        elif crossover_method == "mixture" :
+            self.ranking = parent_size
+            
+            if mixture_size == None :
+                self.subset_size = self.ranking//2
+                self.remain_size = self.ranking - self.subset_size
+            
+            else :
+                self.subset_size = mixture_size
+                self.remain_size = self.ranking - self.subset_size
+            
+            per_sum = sum(1/(perplexities**3))
+            proba = 1/(perplexities**3)/per_sum
+            
+            subset_index = np.random.choice([i for i in range(initial_times)], p = proba, size = self.subset_size, replace = False)
+            sorted_index = perplexities.argsort()
+            
+            remain_size = self.remain_size
+            
+            for i in range(self.ranking) :
+                if sorted_index[i] not in subset_index :
+                    subset_index = np.concat([subset_index, [sorted_index[i]]])
+                    remain_size -= 1
+                    
+                    if remain_size == 0 :
+                        break
+                
+            self.parents_indx = subset_index
         
-        self.best_genome = [self.genomes[perplexities.argmin()], perplexities.min()]
+        self.best_genome = [" ".join(self.genomes[perplexities.argmin()]), perplexities.min()]
     
     def crossover(self, parents_indx : List[int], genomes : List[str], dupl = False) :
         pair_parents = list(itertools.combinations(parents_indx, 2)) ## combination of parents    
@@ -63,7 +94,7 @@ class genetic :
             # PMX : i is main / 1-i is sub
             for i in range(2) :
                 for j in range(self.cross_size) :
-                    if np.random.random() < 0.2 :
+                    if np.random.random() < 0.4 :
                         width = np.random.randint(self.cross_area[0], self.cross_area[2])
                         
                     else :
@@ -108,12 +139,12 @@ class genetic :
         
         return childs
 
-    def mutation(self, childs : List[str]) -> List[str] :
+    def mutation(self, childs : List[str], mutation_chances = 2) -> List[str] :
         childs = np.array(childs)
         lnth = len(childs[0])
         
         for i in range(len(childs)) :
-            for _ in range(self.mutation_chances) :
+            for _ in range(mutation_chances) :
                 ## mutate randomly
                 if np.random.random() < 0.5 :
                     continue
@@ -122,7 +153,7 @@ class genetic :
                 
                 ## swap
                 if dice == 0 :                
-                    swap_area = np.random.choice([i for i in range(lnth)], size = 2, replace = False)
+                    swap_area = np.random.choice([k for k in range(lnth)], size = 2, replace = False)
                     childs[i][swap_area[0]], childs[i][swap_area[1]] = childs[i][swap_area[1]], childs[i][swap_area[0]]
                     
                 ## move
@@ -157,14 +188,14 @@ class genetic :
     def reputation(self, rep_times = 100) :
         for _ in range(rep_times) :
             childs = self.crossover(self.parents_indx, self.genomes, self.dupl)
-            self.genomes = self.mutation(childs)
+            self.genomes = self.mutation(childs, mutation_chances = self.mutation_chances)
             
-            genome_set = list(set([" ".join(genome) for genome in self.genomes]))
+            genome_set = np.unique([" ".join(genome) for genome in self.genomes] + [self.best_genome[0]]) ## elitism
             
             self.evaluatr.clear_gpu_memory()
-            self.evaluatr = PerplexityCalculator("google/gemma-2-9b")
+            self.evaluatr = PerplexityCalculator("google/gemma-2-9b", load_in_8bit = self.load_in_8bit)
             
-            perplexities = np.array(self.evaluatr.get_perplexity(genome_set, batch_size = 1024))
+            perplexities = np.array(self.evaluatr.get_perplexity(genome_set, batch_size = self.batch_size))
             
             if self.crossover_method == "roulette" :
                 per_sum = sum(1/(perplexities**3))
@@ -173,6 +204,24 @@ class genetic :
                 
             elif self.crossover_method == "rank" :
                 self.parents_indx = perplexities.argsort()[:self.ranking]
+            
+            elif self.crossover_method == "mixture" :
+                per_sum = sum(1/(perplexities**3))
+                proba = 1/(perplexities**3)/per_sum
+                subset_index = np.random.choice([i for i in range(len(genome_set))], p = proba, size = self.subset_size, replace = False)
+                sorted_index = perplexities.argsort()
+                
+                remain_size = self.remain_size
+                
+                for i in range(self.ranking) :
+                    if sorted_index[i] not in subset_index :
+                        subset_index = np.concat([subset_index, [sorted_index[i]]])
+                        remain_size -= 1
+                        
+                        if remain_size == 0 :
+                            break
+                    
+                self.parents_indx = subset_index
             
             if perplexities.min() < self.best_genome[1] :
                 self.best_genome = [genome_set[perplexities.argmin()], perplexities.min()]
