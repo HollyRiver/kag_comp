@@ -32,8 +32,8 @@ class genetic :
         perplexities = np.array(self.evaluatr.get_perplexity([" ".join(genome) for genome in self.genomes], batch_size = self.batch_size))
         
         if crossover_method == "roulette" :
-            per_sum = sum(1/(perplexities**2))
-            proba = 1/(perplexities**2)/per_sum
+            per_sum = sum(1/(perplexities**3))
+            proba = 1/(perplexities**3)/per_sum
             self.parents_indx = np.random.choice([i for i in range(initial_times)], p = proba, size = parent_size, replace = False)
             
         elif crossover_method == "rank" :
@@ -51,8 +51,8 @@ class genetic :
                 self.subset_size = mixture_size
                 self.remain_size = self.ranking - self.subset_size
             
-            per_sum = sum(1/(perplexities**2))
-            proba = 1/(perplexities**2)/per_sum
+            per_sum = sum(1/(perplexities**3))
+            proba = 1/(perplexities**3)/per_sum
             
             subset_index = np.random.choice([i for i in range(initial_times)], p = proba, size = self.subset_size, replace = False)
             sorted_index = perplexities.argsort()
@@ -83,12 +83,12 @@ class genetic :
             ## dealing with duplication
             if dupl :
                 for i in range(2) :
-                    for t in set(parents[i]) :
-                        times = sum(np.array(parents[i]) == t)
+                    for t in set(parents[i].split()) :
+                        times = sum(np.array(parents[i].split()) == t)
                         rep = 1
                         
                         if times > 1 :
-                            for j, k in enumerate(parents[i]) :
+                            for j, k in enumerate(parents[i].split()) :
                                 if k == t :
                                     parents[i][j] = f"{t}{rep}"
                                     rep += 1
@@ -116,7 +116,7 @@ class genetic :
                             sub = np.where(np.array(parents[1-i]) == parents[i][sub])[0][0]
                             
                             if (sub < start) | (sub >= start+width) :
-                                child[sub] = t
+                                child[int(sub)] = t
                                 break
                     
                     ## remain set
@@ -127,14 +127,13 @@ class genetic :
                     
                     for k, ind in enumerate(empty_indx) :
                         child[ind] = remain_set[k]
-                        
 
                     ## text transformation
                     if dupl :
                         for j, t in enumerate(child) :
                             try :
                                 int(t[-1])
-                                child[j] = t[:-1]
+                                child[i][j] = t[:-1]
                             except :
                                 pass
                     
@@ -205,16 +204,16 @@ class genetic :
             perplexities = np.array(self.evaluatr.get_perplexity(genome_set, batch_size = self.batch_size))
             
             if self.crossover_method == "roulette" :
-                per_sum = sum(1/(perplexities**2))
-                proba = 1/(perplexities**2)/per_sum
+                per_sum = sum(1/(perplexities**3))
+                proba = 1/(perplexities**3)/per_sum
                 parents_indx = np.random.choice([i for i in range(len(genome_set))], p = proba, size = 10, replace = False)
                 
             elif self.crossover_method == "rank" :
                 parents_indx = perplexities.argsort()[:self.ranking]
             
             elif self.crossover_method == "mixture" :
-                per_sum = sum(1/(perplexities**2))
-                proba = 1/(perplexities**2)/per_sum
+                per_sum = sum(1/(perplexities**3))
+                proba = 1/(perplexities**3)/per_sum
                 subset_index = np.random.choice([i for i in range(len(genome_set))], p = proba, size = self.subset_size, replace = False)
                 sorted_index = perplexities.argsort()
                 
