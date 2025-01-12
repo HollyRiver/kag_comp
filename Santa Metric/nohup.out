@@ -383,3 +383,462 @@ parents perplexities : [ 697.0624465   888.08059588 1100.92525926  716.38572932 
   534.45631685  534.45631685  534.45631685  534.45631685  534.45631685
   534.45631685  534.45631685  536.54811973  536.54811973  536.54811973]
 Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.52it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.54it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.39it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.36it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.35it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.46it/s]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.59it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:02,  2.26it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:01,  2.64it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:01<00:01,  2.87it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:01,  2.88it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:02<00:00,  2.85it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:02<00:00,  2.87it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:02<00:00,  3.22it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:02<00:00,  2.84it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+Traceback (most recent call last):
+  File "/root/kag_comp/Santa Metric/ga.py", line 9, in <module>
+    optimizr = genetic(sample, initial_times = 10000, cross_size = 120, cross_area = [7, 15, 30], max_stack = 5, crossover_method = "mixture", parent_size = 42, mutation_chances = 2, batch_size = 1024, dupl = True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/kag_comp/Santa Metric/algorithm/Genetic.py", line 32, in __init__
+    perplexities = np.array(self.evaluatr.get_perplexity([" ".join(genome) for genome in self.genomes], batch_size = self.batch_size))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/kag_comp/Santa Metric/algorithm/kaggle_evaluate.py", line 239, in get_perplexity
+    output = self.model(**model_inputs, use_cache=False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 977, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 763, in forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 476, in forward
+    hidden_states = self.input_layernorm(hidden_states)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 73, in forward
+    output = self._norm(x.float())
+                        ^^^^^^^^^
+RuntimeError: NVML_SUCCESS == r INTERNAL ASSERT FAILED at "/opt/conda/conda-bld/pytorch_1729647406761/work/c10/cuda/CUDACachingAllocator.cpp":995, please report a bug to PyTorch. 
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.56it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:00<00:02,  2.21it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:02,  2.46it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:01<00:01,  2.73it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:01<00:01,  2.87it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:02<00:00,  2.98it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:02<00:00,  3.08it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:02<00:00,  3.50it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:02<00:00,  2.91it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+Traceback (most recent call last):
+  File "/root/kag_comp/Santa Metric/ga.py", line 9, in <module>
+    optimizr = genetic(sample, initial_times = 10000, cross_size = 120, cross_area = [7, 15, 30], max_stack = 5, crossover_method = "mixture", parent_size = 42, mutation_chances = 2, batch_size = 512, dupl = True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/kag_comp/Santa Metric/algorithm/Genetic.py", line 32, in __init__
+    perplexities = np.array(self.evaluatr.get_perplexity([" ".join(genome) for genome in self.genomes], batch_size = self.batch_size))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/kag_comp/Santa Metric/algorithm/kaggle_evaluate.py", line 239, in get_perplexity
+    output = self.model(**model_inputs, use_cache=False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 977, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 763, in forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 479, in forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+                                                          ^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 384, in forward
+    query_states, key_states = apply_rotary_pos_emb(query_states, key_states, cos, sin)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 155, in apply_rotary_pos_emb
+    q_embed = (q * cos) + (rotate_half(q) * sin)
+               ~~^~~~~
+RuntimeError: NVML_SUCCESS == r INTERNAL ASSERT FAILED at "/opt/conda/conda-bld/pytorch_1729647406761/work/c10/cuda/CUDACachingAllocator.cpp":995, please report a bug to PyTorch. 
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.55it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:02,  2.02it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:02,  2.33it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:01<00:01,  2.48it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:02<00:01,  2.55it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:02<00:00,  2.63it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:02<00:00,  2.69it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:03<00:00,  3.02it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:03<00:00,  2.60it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+Traceback (most recent call last):
+  File "/root/kag_comp/Santa Metric/ga.py", line 10, in <module>
+    optimizr = genetic(sample, initial_times = 10000, cross_size = 120, cross_area = [7, 15, 30], max_stack = 5, crossover_method = "mixture", parent_size = 42, mutation_chances = 2, batch_size = 512, dupl = True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/kag_comp/Santa Metric/algorithm/Genetic.py", line 32, in __init__
+    perplexities = np.array(self.evaluatr.get_perplexity([" ".join(genome) for genome in self.genomes], batch_size = self.batch_size))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/kag_comp/Santa Metric/algorithm/kaggle_evaluate.py", line 239, in get_perplexity
+    output = self.model(**model_inputs, use_cache=False)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 977, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 763, in forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 479, in forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+                                                          ^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/accelerate/hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 384, in forward
+    query_states, key_states = apply_rotary_pos_emb(query_states, key_states, cos, sin)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/anaconda3/envs/trch/lib/python3.12/site-packages/transformers/models/gemma2/modeling_gemma2.py", line 155, in apply_rotary_pos_emb
+    q_embed = (q * cos) + (rotate_half(q) * sin)
+               ~~^~~~~
+RuntimeError: NVML_SUCCESS == r INTERNAL ASSERT FAILED at "/opt/conda/conda-bld/pytorch_1729647406761/work/c10/cuda/CUDACachingAllocator.cpp":995, please report a bug to PyTorch. 
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.28it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.25it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.23it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.29it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.25it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+parents perplexities : [3198.10107952 3652.34607365 2180.91545255 3299.61970531 2569.74641034
+ 4337.26827848 1786.97808229 2040.79302695 3325.49894341 2294.52527673
+ 3797.83900098 6460.34176386 2155.50701792 2693.0711155  2198.02058445
+ 1516.58860087 4653.20961379 3980.10110014 2946.22877455 1759.27355503
+ 5272.77727566 1109.55992308 1149.26168255 1167.35992061 1167.35992061
+ 1195.04306336 1228.1708774  1237.80354097 1247.51175447 1272.11671911
+ 1272.11671911 1272.11671911 1292.14964249 1297.2069732  1307.38109359
+ 1333.16687515 1354.16119859 1354.16119859 1354.16119859 1370.12362229
+ 1370.12362229 1380.86963505]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.02it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.11it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.14it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.17it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.18it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.18it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:06<00:00,  1.19it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.35it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.22it/s]
+best genome : [np.str_('ornament yuletide the is of holiday decorations holly gifts stocking beard grinch jingle workshop naughty sleigh chimney nice polar carol nutcracker magi visit unwrap cheer and sing eat relax cheer'), np.float64(756.6541274363462)]
+parents perplexities : [2009.1534637  1458.48900396 1808.04241446 1297.2069732  2303.50579475
+ 1939.74635759 1458.48900396 1633.43020034 3051.64936852 1962.61147384
+ 1118.26230941 2756.93545656  998.49585338 2957.75998794 2032.83672895
+ 2822.31429683 2147.10349245 1498.91980849 1391.69992982 2081.04406274
+ 1487.255122    756.65412744  762.58863931  777.62935251  786.79580124
+  789.87523294  811.77138098  814.94856433  818.13818283  821.34028514
+  821.34028514  827.78213684  831.02198452  837.53977072  840.8178087
+  844.10867656  844.10867656  844.10867656  844.10867656  844.10867656
+  844.10867656  847.41242451]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.07it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.20it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.23it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.26it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.28it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.31it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.35it/s]
+best genome : [np.str_('sleigh of cheer cheer unwrap sing eat carol decorations relax holiday holly naughty and nice yuletide stocking chimney visit workshop gifts ornament beard grinch is the polar magi jingle nutcracker'), np.float64(624.8427387029609)]
+parents perplexities : [ 960.24407794 2072.93084082  744.92329251 1978.00442641  919.8574846
+ 1620.71874567 1083.85699515 1843.70285575 1297.2069732  1793.97211676
+  971.56313127 1435.87722781 1858.16319647 2490.68362507 1880.06663623
+ 1149.26168255 1054.62180187  837.53977072 1223.38269292 1195.04306336
+ 1370.12362229  624.8427387   632.20818718  634.68258006  634.68258006
+  644.67737638  647.20057229  652.27662929  654.82956784  657.3924983
+  657.3924983   657.3924983   657.3924983   659.96545979  662.54849157
+  662.54849157  662.54849157  662.54849157  665.14163304  665.14163304
+  667.74492379  670.35840353]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.13it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.21it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.23it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.26it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.29it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+best genome : [np.str_('sleigh of cheer cheer unwrap sing eat carol decorations relax holiday holly naughty and nice yuletide stocking chimney visit workshop gifts ornament grinch jingle the magi nutcracker polar is beard'), np.float64(524.1189959252079)]
+parents perplexities : [1725.24612423  967.77536558  891.55644506 2471.30097133  789.87523294
+  774.59766297 1297.2069732  1105.23415889  864.12613696 1190.38403199
+  870.90356225 1058.7494749  1167.35992061 1046.4146699   960.24407794
+ 1577.00262261 1435.87722781 1135.87237839 1262.21702827 1534.46566739
+  983.01561002  524.11899593  534.45631685  536.54811973  538.6481097
+  538.6481097   540.75631879  542.87277918  544.99752316  547.13058316
+  551.42178151  551.42178151  553.57998534  555.74663614  557.92176698
+  557.92176698  560.10541103  560.10541103  562.29760163  562.29760163
+  562.29760163  564.49837222]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.05it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.16it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.16it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.17it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.18it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.19it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.21it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.26it/s]
+best genome : [np.str_('sleigh of cheer cheer unwrap sing carol eat relax holiday holly naughty and nice yuletide stocking chimney visit workshop gifts decorations ornament grinch jingle the magi nutcracker polar is beard'), np.float64(409.7818725681369)]
+parents perplexities : [ 619.98017393  990.725497   1498.91980849 1359.46123567 2651.31891781
+  949.05689557  895.04589832 1030.19151414  808.60658429  990.725497
+  617.5631003   678.26037626  756.65412744 1140.31805718  884.61829776
+  586.98543094  945.35687339  697.0624465   952.77139924 1510.67598225
+ 1887.42500899  409.78187257  458.93392709  462.53339049  466.16108483
+  466.16108483  467.98558773  469.81723153  469.81723153  471.65604419
+  473.50205375  473.50205375  473.50205375  475.35528839  475.35528839
+  475.35528839  475.35528839  477.21577639  479.08354613  480.95862611
+  480.95862611  480.95862611]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.32it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.25it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.20it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.23it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.29it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.31it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+best genome : [np.str_('sleigh of cheer cheer unwrap gifts eat carol sing relax holiday holly naughty and nice yuletide chimney stocking visit workshop decorations ornament grinch jingle the magi nutcracker polar is beard'), np.float64(370.20707083592094)]
+parents perplexities : [ 708.03958277  526.17033968  722.00441223  744.92329251  898.54900892
+  518.01282467  573.38792808 1010.26580654  713.59280604 1447.13895249
+  598.5626812  1475.68121081 1026.17517805  562.29760163  672.98211214
+ 1058.7494749   927.07201627  522.07564961  934.34313221 1140.31805718
+  742.01911182  370.20707084  376.0369839   387.97367912  387.97367912
+  387.97367912  389.49216517  389.49216517  391.0165944   394.08337556
+  397.17420978  398.72870568  400.28928571  400.28928571  401.85597368
+  403.42879349  403.42879349  403.42879349  405.00776915  405.00776915
+  405.00776915  405.00776915]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.37it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.28it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.26it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.26it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.24it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.41it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.33it/s]
+best genome : [np.str_('sleigh yuletide cheer cheer unwrap sing carol eat relax holiday decorations holly naughty and nice chimney stocking ornament nutcracker jingle workshop polar beard gifts of the magi grinch visit is'), np.float64(329.26898489707213)]
+parents perplexities : [ 867.50823103  530.2971448   864.12613696 1190.38403199 1204.41590227
+  691.6378635   639.66045724  584.69699162  927.07201627  971.56313127
+  927.07201627 1006.32715342  649.73364371  522.07564961  683.58003832
+  844.10867656  479.08354613  564.49837222  881.16949785 1262.21702827
+  498.16806499  329.2689849   341.05073527  342.38557011  346.42150286
+  351.87684774  351.87684774  353.25405478  353.25405478  354.63665206
+  356.02466067  357.41810179  358.81699669  358.81699669  358.81699669
+  360.22136671  360.22136671  360.22136671  360.22136671  360.22136671
+  360.22136671  360.22136671]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.09it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.22it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.25it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.37it/s]
+best genome : [np.str_('sleigh yuletide carol sing unwrap relax eat cheer cheer holiday decorations holly naughty and nice chimney stocking ornament nutcracker jingle workshop polar beard gifts of the magi visit grinch is'), np.float64(294.00411093116844)]
+parents perplexities : [ 753.70421255  392.54699008  683.58003832 1297.2069732   434.50990901
+  802.31395793  437.91781247 1010.26580654  888.08059588  460.73014369
+  504.0403125   713.59280604  771.57779288  547.13058316  571.1525004
+  416.23499808  464.343695    526.17033968 1528.48335269  934.34313221
+  484.73083137  294.00411093  298.63400199  304.52402991  304.52402991
+  306.91244148  308.11366281  309.31958559  310.53022822  310.53022822
+  310.53022822  311.74560917  316.65488818  316.65488818  316.65488818
+  316.65488818  316.65488818  316.65488818  317.89424037  317.89424037
+  317.89424037  317.89424037]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.07it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.21it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.25it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.28it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.33it/s]
+best genome : [np.str_('sleigh yuletide carol sing unwrap relax eat cheer cheer holiday decorations holly naughty and nice chimney stocking ornament jingle workshop nutcracker polar beard gifts of the magi visit grinch is'), np.float64(279.4469580033028)]
+parents perplexities : [1257.29611042  392.54699008  534.45631685  938.00004783  634.68258006
+  360.22136671  586.98543094  342.38557011  490.44468502  334.45421692
+  401.85597368  400.28928571  387.97367912  424.44449781  462.53339049
+  986.86302433  424.44449781  304.52402991  538.6481097   329.2689849
+  562.29760163  279.446958    284.95855539  286.07385164  287.19351304
+  287.19351304  288.31755667  288.31755667  288.31755667  288.31755667
+  288.31755667  288.31755667  288.31755667  288.31755667  289.44599968
+  289.44599968  290.57885929  290.57885929  291.71615279  291.71615279
+  291.71615279  292.85789753]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.03s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.15it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.21it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.25it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.29it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.34it/s]
+best genome : [np.str_('jingle yuletide carol sing unwrap relax eat cheer cheer holiday decorations holly naughty and nice chimney stocking ornament sleigh workshop nutcracker polar beard gifts of the magi visit grinch is'), np.float64(266.6501501115634)]
+parents perplexities : [334.45421692 398.72870568 341.05073527 429.44771524 403.42879349
+ 792.96671719 584.69699162 466.16108483 898.54900892 296.31001375
+ 657.3924983  555.74663614 383.45364885 475.35528839 342.38557011
+ 551.42178151 339.72110446 762.58863931 462.53339049 506.01307051
+ 424.44449781 266.65015011 269.7933377  271.90935308 272.97357619
+ 274.04196456 275.11453449 275.11453449 275.11453449 276.19130233
+ 276.19130233 277.27228452 277.27228452 277.27228452 277.27228452
+ 277.27228452 277.27228452 278.35749756 278.35749756 278.35749756
+ 278.35749756 279.446958  ]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.04it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.19it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.23it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.27it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+best genome : [np.str_('ornament yuletide carol sing unwrap eat relax cheer cheer holiday decorations holly jingle naughty and nice chimney stocking sleigh workshop nutcracker polar beard gifts of the magi visit grinch is'), np.float64(260.4732060371668)]
+parents perplexities : [342.38557011 412.99583163 691.6378635  405.00776915 314.19066029
+ 431.12852607 528.22971216 683.58003832 434.50990901 513.98161688
+ 694.34485756 360.22136671 593.90462946 387.97367912 610.36827225
+ 317.89424037 490.44468502 624.8427387  370.20707084 657.3924983
+ 571.1525004  260.47320604 261.49266934 262.51612271 262.51612271
+ 263.54358177 263.54358177 263.54358177 263.54358177 263.54358177
+ 265.6105797  265.6105797  265.6105797  265.6105797  266.65015011
+ 266.65015011 266.65015011 266.65015011 266.65015011 266.65015011
+ 266.65015011 267.69378929]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.06it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.21it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.20it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.25it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.28it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.35it/s]
+best genome : [np.str_('jingle yuletide carol sing relax unwrap eat cheer holiday cheer decorations ornament holly naughty and nice chimney stocking sleigh workshop nutcracker polar beard gifts of the magi grinch is visit'), np.float64(255.43519818017026)]
+parents perplexities : [360.22136671 783.72837511 303.33680323 310.53022822 289.44599968
+ 335.76323371 469.81723153 691.6378635  431.12852607 411.38571347
+ 261.49266934 488.53262239 346.42150286 345.07093342 821.34028514
+ 342.38557011 765.57332685 596.22910645 386.46111309 431.12852607
+ 439.63177432 255.43519818 255.43519818 256.43494328 257.43860127
+ 257.43860127 258.44618747 260.47320604 260.47320604 260.47320604
+ 260.47320604 260.47320604 261.49266934 261.49266934 261.49266934
+ 261.49266934 261.49266934 261.49266934 262.51612271 262.51612271
+ 262.51612271 262.51612271]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.20it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.26it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.27it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.28it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.33it/s]
+best genome : [np.str_('jingle yuletide carol sing unwrap visit relax eat cheer holiday cheer decorations ornament holly naughty and nice chimney stocking sleigh workshop nutcracker polar beard gifts of the magi is grinch'), np.float64(252.45928798182638)]
+parents perplexities : [ 562.29760163  526.17033968  427.77345727  356.02466067  374.57095464
+  511.97779246  494.29129036  367.32609655  363.04661791  324.16414245
+  480.95862611  334.45421692  426.10572661  327.98528678  409.78187257
+  306.91244148 1627.06205949  688.94142301  300.9762175   436.21053271
+  484.73083137  252.45928798  254.43935072  255.43519818  255.43519818
+  255.43519818  255.43519818  256.43494328  256.43494328  256.43494328
+  257.43860127  257.43860127  257.43860127  258.44618747  258.44618747
+  258.44618747  258.44618747  259.45771724  259.45771724  259.45771724
+  260.47320604  260.47320604]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.24it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.21it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.19it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.19it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.22it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.27it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.50it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.33it/s]
+best genome : [np.str_('jingle yuletide carol sing relax unwrap and eat cheer holiday cheer decorations ornament holly naughty nice chimney stocking sleigh workshop nutcracker polar beard gifts of the magi is grinch visit'), np.float64(251.47504249414803)]
+parents perplexities : [381.95870474 458.93392709 504.0403125  391.0165944  443.07984907
+ 339.72110446 818.13818283 350.50500992 683.58003832 308.11366281
+ 482.84104495 376.0369839  308.11366281 444.81401456 400.28928571
+ 389.49216517 316.65488818 520.04026954 290.57885929 724.8302576
+ 542.87277918 251.47504249 252.45928798 252.45928798 253.4473857
+ 253.4473857  253.4473857  253.4473857  254.43935072 254.43935072
+ 255.43519818 255.43519818 255.43519818 255.43519818 255.43519818
+ 255.43519818 255.43519818 255.43519818 256.43494328 256.43494328
+ 256.43494328 256.43494328]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.36it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.26it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.27it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.33it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.39it/s]
+best genome : [np.str_('jingle yuletide carol sing unwrap gifts relax eat holiday cheer cheer decorations ornament holly naughty and nice chimney stocking sleigh workshop nutcracker polar beard visit of the magi grinch is'), np.float64(250.49463421597682)]
+parents perplexities : [450.05734141 513.98161688 368.76377025 562.29760163 538.6481097
+ 364.46754219 522.07564961 719.18958379 322.90034623 346.42150286
+ 346.42150286 322.90034623 615.15544994 368.76377025 298.63400199
+ 261.49266934 560.10541103 451.81881604 338.39665739 391.0165944
+ 697.0624465  250.49463422 251.47504249 252.45928798 252.45928798
+ 252.45928798 252.45928798 253.4473857  253.4473857  253.4473857
+ 253.4473857  253.4473857  253.4473857  254.43935072 254.43935072
+ 254.43935072 254.43935072 254.43935072 254.43935072 254.43935072
+ 255.43519818 255.43519818]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.06it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.14it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.15it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.20it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.25it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.28it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.30it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.52it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.32it/s]
+parents perplexities : [1026.17517805  573.38792808  335.76323371  341.05073527  389.49216517
+  341.05073527  394.08337556  335.76323371  266.65015011  455.36247493
+  506.01307051 1652.68455865  360.22136671  432.81591542  434.50990901
+  400.28928571  342.38557011  475.35528839  515.99328406  629.74344104
+  480.95862611  250.49463422  250.49463422  251.47504249  251.47504249
+  251.47504249  252.45928798  252.45928798  252.45928798  252.45928798
+  253.4473857   253.4473857   253.4473857   253.4473857   253.4473857
+  253.4473857   254.43935072  254.43935072  254.43935072  254.43935072
+  254.43935072  254.43935072]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.34it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.26it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.27it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.38it/s]
+parents perplexities : [419.49956963 408.18428445 387.97367912 956.50044106 462.53339049
+ 506.01307051 292.85789753 657.3924983  532.37266914 391.0165944
+ 330.55770727 361.63123328 434.50990901 361.63123328 326.70659333
+ 370.20707084 411.38571347 494.29129036 450.05734141 750.7657983
+ 432.81591542 250.49463422 250.49463422 251.47504249 251.47504249
+ 251.47504249 252.45928798 252.45928798 252.45928798 252.45928798
+ 252.45928798 253.4473857  253.4473857  253.4473857  253.4473857
+ 253.4473857  253.4473857  254.43935072 254.43935072 254.43935072
+ 254.43935072 254.43935072]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.28it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.30it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.29it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.39it/s]
+parents perplexities : [603.25726649 434.50990901 376.0369839  414.61225161 451.81881604
+ 419.49956963 417.8640958  325.43288503 605.61834867 389.49216517
+ 551.42178151 310.53022822 462.53339049 553.57998534 786.79580124
+ 528.22971216 686.25549495 321.64147708 331.85147355 265.6105797
+ 346.42150286 250.49463422 250.49463422 250.49463422 250.49463422
+ 250.49463422 250.49463422 251.47504249 251.47504249 251.47504249
+ 251.47504249 251.47504249 252.45928798 252.45928798 252.45928798
+ 252.45928798 252.45928798 253.4473857  253.4473857  253.4473857
+ 253.4473857  253.4473857 ]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.01s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.15it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.20it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.24it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.28it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.34it/s]
+best genome : [np.str_('jingle yuletide carol sing unwrap gifts relax eat holiday cheer cheer decorations ornament holly naughty and nice chimney stocking sleigh workshop nutcracker visit of the magi grinch polar is beard'), np.float64(228.07795992374852)]
+parents perplexities : [287.19351304 488.53262239 308.11366281 367.32609655 603.25726649
+ 494.29129036 291.71615279 401.85597368 471.65604419 409.78187257
+ 339.72110446 768.56969614 591.58921474 342.38557011 342.38557011
+ 429.44771524 274.04196456 560.10541103 391.0165944  387.97367912
+ 341.05073527 228.07795992 240.89833548 245.64962941 247.57628333
+ 248.54526951 249.51804819 250.49463422 250.49463422 250.49463422
+ 250.49463422 250.49463422 250.49463422 250.49463422 250.49463422
+ 250.49463422 251.47504249 251.47504249 251.47504249 251.47504249
+ 251.47504249 251.47504249]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.02it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.11it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.15it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.20it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.25it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.28it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.31it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.52it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.32it/s]
+best genome : [np.str_('jingle yuletide carol sing unwrap gifts relax eat holiday cheer cheer decorations ornament holly stocking naughty and nice chimney sleigh workshop nutcracker visit of the magi grinch polar is beard'), np.float64(226.30304315814422)]
+parents perplexities : [429.44771524 642.16401748 342.38557011 496.22589177 453.58718489
+ 367.32609655 434.50990901 367.32609655 605.61834867 443.07984907
+ 383.45364885 270.84927897 391.0165944  534.45631685 408.18428445
+ 342.38557011 739.12625345 475.35528839 427.77345727 265.6105797
+ 327.98528678 226.30304316 228.07795992 233.48667288 233.48667288
+ 235.31793155 238.09178486 238.09178486 239.02364976 239.02364976
+ 239.02364976 239.95916187 239.95916187 239.95916187 240.89833548
+ 240.89833548 241.8411849  241.8411849  242.78772454 242.78772454
+ 242.78772454 242.78772454]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.08s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.07it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.14it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.20it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.24it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.28it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.30it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.51it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.30it/s]
+parents perplexities : [317.89424037 397.17420978 482.84104495 406.59292474 377.50875105
+ 479.08354613 302.15420511 294.00411093 436.21053271 451.81881604
+ 255.43519818 247.57628333 544.99752316 427.77345727 370.20707084
+ 296.31001375 408.18428445 486.6280142  387.97367912 494.29129036
+ 378.98627852 226.30304316 226.30304316 228.07795992 231.66966517
+ 231.66966517 232.5763946  233.48667288 233.48667288 233.48667288
+ 234.40051388 234.40051388 235.31793155 235.31793155 235.31793155
+ 235.31793155 235.31793155 236.23893989 236.23893989 236.23893989
+ 236.23893989 237.16355296]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.07s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.09it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.18it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.17it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.22it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.26it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.51it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.30it/s]
+best genome : [np.str_('jingle yuletide carol sing unwrap gifts relax eat holiday cheer cheer decorations ornament holly stocking naughty and nice chimney sleigh workshop visit of the magi nutcracker grinch polar is beard'), np.float64(225.42077120508256)]
+parents perplexities : [298.63400199 699.79067177 278.35749756 261.49266934 536.54811973
+ 303.33680323 403.42879349 271.90935308 286.07385164 672.98211214
+ 662.54849157 294.00411093 358.81699669 316.65488818 460.73014369
+ 397.17420978 747.83883984 600.90538929 398.72870568 532.37266914
+ 469.81723153 225.42077121 226.30304316 226.30304316 228.07795992
+ 230.76647074 231.66966517 231.66966517 232.5763946  233.48667288
+ 233.48667288 233.48667288 233.48667288 234.40051388 234.40051388
+ 234.40051388 234.40051388 235.31793155 235.31793155 235.31793155
+ 235.31793155 235.31793155]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.02s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.15it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.21it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.25it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.28it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.31it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.34it/s]
+parents perplexities : [422.78974553 371.65602034 371.65602034 325.43288503 324.16414245
+ 429.44771524 394.08337556 473.50205375 492.36423124 427.77345727
+ 392.54699008 400.28928571 414.61225161 327.98528678 248.54526951
+ 378.98627852 350.50500992 331.85147355 573.38792808 296.31001375
+ 480.95862611 225.42077121 226.30304316 226.30304316 228.07795992
+ 230.76647074 231.66966517 231.66966517 232.5763946  233.48667288
+ 233.48667288 233.48667288 233.48667288 234.40051388 234.40051388
+ 234.40051388 234.40051388 235.31793155 235.31793155 235.31793155
+ 235.31793155 235.31793155]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.25it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.28it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.28it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.33it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.39it/s]
+parents perplexities : [431.12852607 542.87277918 289.44599968 387.97367912 639.66045724
+ 637.16665745 492.36423124 389.49216517 274.04196456 384.95444399
+ 387.97367912 339.72110446 380.46958888 351.87684774 310.53022822
+ 360.22136671 624.8427387  342.38557011 426.10572661 311.74560917
+ 333.1503035  225.42077121 226.30304316 226.30304316 228.07795992
+ 230.76647074 231.66966517 231.66966517 232.5763946  233.48667288
+ 233.48667288 233.48667288 233.48667288 234.40051388 234.40051388
+ 234.40051388 234.40051388 235.31793155 235.31793155 235.31793155
+ 235.31793155 235.31793155]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.07s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.12it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.19it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.24it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.28it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.33it/s]
+parents perplexities : [392.54699008 275.11453449 291.71615279 526.17033968 432.81591542
+ 386.46111309 309.31958559 747.83883984 417.8640958  297.46973836
+ 386.46111309 289.44599968 299.80282243 292.85789753 639.66045724
+ 699.79067177 321.64147708 412.99583163 414.61225161 506.01307051
+ 511.97779246 225.42077121 226.30304316 226.30304316 228.07795992
+ 230.76647074 231.66966517 231.66966517 232.5763946  233.48667288
+ 233.48667288 233.48667288 233.48667288 234.40051388 234.40051388
+ 234.40051388 234.40051388 235.31793155 235.31793155 235.31793155
+ 235.31793155 235.31793155]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.08it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.20it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.23it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.26it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.29it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+parents perplexities : [551.42178151 411.38571347 295.15481049 437.91781247 371.65602034
+ 351.87684774 276.19130233 337.07737385 534.45631685 439.63177432
+ 351.87684774 502.07524555 272.97357619 378.98627852 321.64147708
+ 349.13852038 398.72870568 361.63123328 289.44599968 310.53022822
+ 389.49216517 225.42077121 226.30304316 226.30304316 228.07795992
+ 230.76647074 231.66966517 231.66966517 232.5763946  233.48667288
+ 233.48667288 233.48667288 233.48667288 234.40051388 234.40051388
+ 234.40051388 234.40051388 235.31793155 235.31793155 235.31793155
+ 235.31793155 235.31793155]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.08s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.12it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.14it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.16it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.22it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.26it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.50it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.29it/s]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]

@@ -1,10 +1,24 @@
-import itertools
 import numpy as np
 from algorithm.kaggle_evaluate import PerplexityCalculator
 from typing import List
 
-class genetic :
-    def __init__(self, sample : str, initial_times = 1000, max_stack = 20, cross_area = [5, 10, 20], cross_size = 1000, mutation_chances = 2, dupl = False, crossover_method = "roulette", mixture_size = None, parent_size = 10, batch_size = 1024, load_in_8bit = False) :
+class genetic_neo :
+    def __init__(
+        self,
+        sample : str,
+        verbs : List[str],
+        initial_times = 1000,
+        max_stack = 10,
+        cross_size = 10,
+        mutation_chances = 2,
+        dupl = False,
+        crossover_method = "mixture",
+        parents_size = 10,
+        elite_size = 5,
+        batch_size = 1024,
+        load_in_8bit = False) :
+        
+        
         ## create evaluator
         self.batch_size = batch_size
         self.load_in_8bit = load_in_8bit
@@ -23,43 +37,44 @@ class genetic :
         self.stack = 0
         
         self.mutation_chances = mutation_chances
-        self.cross_area = cross_area
         self.cross_size = cross_size
+        self.parents_size = parents_size
         self.crossover_method = crossover_method
+        self.vrbs = verbs
         self.dupl = dupl
+        
+        if self.crossover_method == "mixture" :
+            self.elite_size = elite_size
         
         ## getting perplexities and parents
         perplexities = np.array(self.evaluatr.get_perplexity([" ".join(genome) for genome in self.genomes], batch_size = self.batch_size))
         
+        ## abstract parents
+        self.parents_indx = self.selection(perplexities, parents_size = self.parents_size, crossover_method = self.crossover_method, elite_size = self.elite_size)
+        self.best_genome = [" ".join(self.genomes[perplexities.argmin()]), perplexities.min()]
+        
+        print(f"parents perplexities : {perplexities[self.parents_indx]}")
+        
+        
+    def selection(self, perplexities, crossover_method = "mixture", parents_size = 20, elite_size = 10) :
+        perps = np.array(perplexities)
+        
         if crossover_method == "roulette" :
-            per_sum = sum(1/(perplexities**3))
-            proba = 1/(perplexities**3)/per_sum
-            self.parents_indx = np.random.choice([i for i in range(initial_times)], p = proba, size = parent_size, replace = False)
+            per_sum = sum(1/(perps**2))
+            proba = 1/(perps**2)/per_sum
+            parents_indx = np.random.choice([i for i in range(len(perps))], p = proba, size = parents_size, replace = False)
             
         elif crossover_method == "rank" :
-            self.ranking = parent_size
-            self.parents_indx = perplexities.argsort()[:parent_size]
-            
+            parents_indx = perps.argsort()[:parents_size]
+
         elif crossover_method == "mixture" :
-            self.ranking = parent_size
+            per_sum = sum(1/(perps**2))
+            proba = 1/(perps**2)/per_sum
+            subset_index = np.random.choice([i for i in range(len(perps))], p = proba, size = parents_size - elite_size, replace = False)
+            sorted_index = perps.argsort()
+            remain_size = elite_size
             
-            if mixture_size == None :
-                self.subset_size = self.ranking//2
-                self.remain_size = self.ranking - self.subset_size
-            
-            else :
-                self.subset_size = mixture_size
-                self.remain_size = self.ranking - self.subset_size
-            
-            per_sum = sum(1/(perplexities**3))
-            proba = 1/(perplexities**3)/per_sum
-            
-            subset_index = np.random.choice([i for i in range(initial_times)], p = proba, size = self.subset_size, replace = False)
-            sorted_index = perplexities.argsort()
-            
-            remain_size = self.remain_size
-            
-            for i in range(self.ranking) :
+            for i in range(parents_size) :
                 if sorted_index[i] not in subset_index :
                     subset_index = np.concat([subset_index, [sorted_index[i]]])
                     remain_size -= 1
@@ -67,181 +82,190 @@ class genetic :
                     if remain_size == 0 :
                         break
                 
-            self.parents_indx = subset_index
+            parents_indx = subset_index
         
-        self.best_genome = [" ".join(self.genomes[perplexities.argmin()]), perplexities.min()]
-        
-        print(f"parents perplexities : {perplexities[self.parents_indx]}")
+        return parents_indx
     
-    def crossover(self, parents_indx : List[int], genomes : List[str], dupl = False) :
-        pair_parents = list(itertools.combinations(parents_indx, 2)) ## combination of parents    
-        childs = []
+    
+    def mutation_crossover(self, p, mutation_chances = 1) :
+        origin = np.array(p)
+        lnth = len(origin)
         
-        for pair in pair_parents :
-            parents = [genomes[pair[0]], genomes[pair[1]]]
-            
-            ## dealing with duplication
-            if dupl :
-                for i in range(2) :
-                    for t in set(parents[i].split()) :
-                        times = sum(np.array(parents[i].split()) == t)
-                        rep = 1
+        for _ in range(mutation_chances) :
+            ## mutation rate : default 50%
+            if np.random.random() > 0.33 :
+                dice = np.random.randint(0, 4) ## choice mutation method
+                
+                ## swap
+                if dice == 0 :
+                    swap_area = np.random.choice([k for k in range(lnth)], size = 2, replace = False)
+                    origin[swap_area[0]], origin[swap_area[1]] = origin[swap_area[1]], origin[swap_area[0]]
+                    
+                ## move
+                elif dice == 1 :
+                    moving_indx = np.random.randint(0, lnth)
+                    mover = origin[moving_indx]
+                    
+                    moving_area = np.random.randint(0, lnth)
+                    
+                    ## trick
+                    tmp = list(origin)
+                    del tmp[moving_indx]
+                    tmp.insert(moving_area, mover)
+                    
+                    origin = np.array(tmp)
+                    
+                ## inverse
+                elif dice == 2 :
+                    if np.random.random() < 0.5 :
+                        width = np.random.randint(3, 5)
+                        start = np.random.randint(0, lnth-width)
+                        origin[start:start+width] = origin[start:start+width][::-1]
+                    
+                ## scramble
+                elif dice == 3 :
+                    if np.random.random() < 0.5 :
+                        swap_size = np.random.randint(3, 5)
+                        swap_area = np.random.choice([i for i in range(lnth)], size = swap_size, replace = False)
                         
-                        if times > 1 :
-                            for j, k in enumerate(parents[i].split()) :
-                                if k == t :
-                                    parents[i][j] = f"{t}{rep}"
-                                    rep += 1
-            
-            # PMX : i is main / 1-i is sub
-            for i in range(2) :
-                for j in range(self.cross_size) :
-                    if np.random.random() < 0.4 :
-                        width = np.random.randint(self.cross_area[0], self.cross_area[2])
-                        
-                    else :
-                        width = np.random.randint(self.cross_area[0], self.cross_area[1])
-                        
-                    start = np.random.randint(0, self.cross_area[2]-width)
-                    child = [" " for _ in range(self.cross_area[2])]
-                    child[start:start+width] = parents[i][start:start+width]  ## child에 교차영역 복사
-                    
-                    ## mapping
-                    mapping_set = set(parents[1-i][start:start+width]) - set(parents[i][start:start+width])
-                    
-                    for t in mapping_set :
-                        sub = np.where(np.array(parents[1-i]) == t)[0][0]
-                        
-                        for k in range(self.cross_area[2]) :
-                            sub = np.where(np.array(parents[1-i]) == parents[i][sub])[0][0]
-                            
-                            if (sub < start) | (sub >= start+width) :
-                                child[int(sub)] = t
-                                break
-                    
-                    ## remain set
-                    current_set = [t for t in child if t != " "]
-                    remain_set = [t for t in parents[1-i] if t not in current_set]
-                    
-                    empty_indx = [i for i, t in enumerate(child) if t == " "]
-                    
-                    for k, ind in enumerate(empty_indx) :
-                        child[ind] = remain_set[k]
+                        origin[swap_area] = np.random.permutation(np.array(origin)[swap_area])
+        
+        return origin
+    
+    
+    def crossover(self, p1, p2, p3, verbs, mutation_chances = 1) :
+        structure = [None for _ in range(len(p1))]
+        vrbs = [t for t in p2 if t in verbs]
+        othrs = [t for t in p3 if t not in verbs]
+        
+        child = ["" for _ in range(len(p1))]
+        
+        for i, t in enumerate(p1) :
+            structure[i] = t in verbs
+        
+        if mutation_chances > 0 :
+            structure = self.mutation_crossover(structure, mutation_chances = mutation_chances)
+            vrbs = self.mutation_crossover(vrbs, mutation_chances = mutation_chances)
+            othrs = self.mutation_crossover(othrs, mutation_chances = mutation_chances)
 
-                    ## text transformation
-                    if dupl :
-                        for j, t in enumerate(child) :
-                            try :
-                                int(t[-1])
-                                child[i][j] = t[:-1]
-                            except :
-                                pass
-                    
-                    childs.append(child)
+        a = 0
+        b = 0
         
-        return childs
+        for i, s in enumerate(structure) :
+            if s :
+                child[i] = vrbs[a]
+                a += 1
+            else :
+                child[i] = othrs[b]
+                b += 1
+                
+        return child
+    
 
-    def mutation(self, childs : List[str], mutation_chances = 2) -> List[str] :
-        childs = np.array(childs)
-        lnth = len(childs[0])
+    def mutation(self, genome, mutation_chances = 2) :
+        origin = np.array(genome)
+        lnth = len(origin)
         
-        for i in range(len(childs)) :
-            for _ in range(mutation_chances) :
-                ## mutate randomly
-                if np.random.random() > 0.7 :
-                    dice = np.random.randint(0, 4) ## roll a dice
+        for _ in range(mutation_chances) :
+            ## mutate randomly
+            if np.random.random() > 0.5 :
+                dice = np.random.randint(0, 4)
+                
+                ## swap
+                if dice == 0 :
+                    swap_area = np.random.choice([k for k in range(lnth)], size = 2, replace = False)
+                    origin[swap_area[0]], origin[swap_area[1]] = origin[swap_area[1]], origin[swap_area[0]]
+                
+                ## move
+                elif dice == 1 :
+                    moving_indx = np.random.randint(0, lnth)
+                    mover = origin[moving_indx]
                     
-                    ## swap
-                    if dice == 0 :                
-                        swap_area = np.random.choice([k for k in range(lnth)], size = 2, replace = False)
-                        childs[i][swap_area[0]], childs[i][swap_area[1]] = childs[i][swap_area[1]], childs[i][swap_area[0]]
+                    moving_area = np.random.randint(0, lnth)
+                    
+                    ## trick
+                    tmp = list(origin)
+                    del tmp[moving_indx]
+                    tmp.insert(moving_area, mover)
+                    
+                    origin = np.array(tmp)
+                    
+                ## inverse
+                elif dice == 2 :
+                    if np.random.random() < 0.5 :
+                        width = np.random.randint(3, 5)
+                        start = np.random.randint(0, lnth-width)
+                        origin[start:start+width] = origin[start:start+width][::-1]
+                    
+                ## scramble
+                elif dice == 3 :
+                    if np.random.random() < 0.5 :
+                        swap_size = np.random.randint(3, 5)
+                        swap_area = np.random.choice([i for i in range(lnth)], size = swap_size, replace = False)
                         
-                    ## move
-                    elif dice == 1 :
-                        moving_indx = np.random.randint(0, lnth)
-                        mover = childs[i][moving_indx]
-                        
-                        moving_area = np.random.randint(0, lnth-1)
-                        
-                        ## trick
-                        tmp = list(childs[i])
-                        del tmp[moving_indx]
-                        tmp.insert(moving_area, mover)
-                        
-                        childs[i] = np.array(tmp)
-                        
-                    ## inverse
-                    elif dice == 2 :
-                        if np.random.random() < 0.5 :
-                            width = np.random.randint(3, 6)
-                            start = np.random.randint(0, lnth-width)
-                            childs[i][start:start+width] = childs[i][start:start+width][::-1]
-                        
-                    ## scramble
-                    elif dice == 3 :
-                        if np.random.random() < 0.5 :
-                            swap_size = np.random.randint(3, 6)
-                            swap_area = np.random.choice([i for i in range(lnth)], size = swap_size, replace = False)
-                            
-                            childs[i][swap_area] = np.random.permutation(np.array(childs[i])[swap_area])
-            
-        return childs
+                        origin[swap_area] = np.random.permutation(np.array(origin)[swap_area])
+        
+        return origin
+    
     
     def reputation(self, rep_times = 100) :
-        parents_indx = self.parents_indx
-        genomes = self.genomes
+        ## initialize
+        stack = 0
+        genome_set = self.genomes ## initial genomes : numpy.array
         best_genome = self.best_genome
+        parents_indx = self.parents_indx
         
-        for _ in range(rep_times) :
-            childs = self.crossover(parents_indx, genomes, self.dupl)
-            genomes = self.mutation(childs, mutation_chances = self.mutation_chances)
+        for i in range(rep_times) :
+            pair_parents = []
             
-            genome_set = np.unique([" ".join(genome) for genome in genomes] + [best_genome[0]]) ## elitism
+            ## generate parents sets
+            for p1 in parents_indx :
+                for p2 in parents_indx :
+                    for p3 in parents_indx :
+                        pair_parents.append([p1, p2, p3])
             
+            childs = []
+            
+            ## crossover & mutation
+            for pair in pair_parents :
+                parents_genome = [genome_set[idx] for idx in pair]
+                
+                for _ in range(self.cross_size) :
+                    crossover_genome = self.crossover(parents_genome[0], parents_genome[1], parents_genome[2], verbs = self.vrbs, mutation_chances = 4)
+                    
+                    if i <= 10 :
+                        childs.append(self.mutation(crossover_genome, mutation_chances = 4))
+                        
+                    else :
+                        childs.append(self.mutation(crossover_genome, mutation_chances = 2))
+            
+            ## setting genome set
+            genome_set = np.unique([" ".join(genome) for genome in genome_set] + [best_genome[0]]) ## saving best genome in genome set
+
+            ## evaluate
             self.evaluatr.clear_gpu_memory()
-            self.evaluatr = PerplexityCalculator("google/gemma-2-9b", load_in_8bit = self.load_in_8bit)
+            self.evaluatr = PerplexityCalculator("google/gemma-2-9b")
             
             perplexities = np.array(self.evaluatr.get_perplexity(genome_set, batch_size = self.batch_size))
             
-            if self.crossover_method == "roulette" :
-                per_sum = sum(1/(perplexities**3))
-                proba = 1/(perplexities**3)/per_sum
-                parents_indx = np.random.choice([i for i in range(len(genome_set))], p = proba, size = 10, replace = False)
-                
-            elif self.crossover_method == "rank" :
-                parents_indx = perplexities.argsort()[:self.ranking]
+            ## select parents
+            parents_indx = self.selection(perplexities, parents_size = self.parents_size, crossover_method = self.crossover_method, elite_size = self.elite_size)
             
-            elif self.crossover_method == "mixture" :
-                per_sum = sum(1/(perplexities**3))
-                proba = 1/(perplexities**3)/per_sum
-                subset_index = np.random.choice([i for i in range(len(genome_set))], p = proba, size = self.subset_size, replace = False)
-                sorted_index = perplexities.argsort()
-                
-                remain_size = self.remain_size
-                
-                for i in range(self.ranking) :
-                    if sorted_index[i] not in subset_index :
-                        subset_index = np.concat([subset_index, [sorted_index[i]]])
-                        remain_size -= 1
-                        
-                        if remain_size == 0 :
-                            break
-                    
-                parents_indx = subset_index
-            
+            ## renewal
             if perplexities.min() < best_genome[1] :
                 best_genome = [genome_set[perplexities.argmin()], perplexities.min()]
                 print(f"best genome : {best_genome}")
-                self.stack = 0
+                stack = 0
                 
             else :
-                self.stack += 1
+                stack += 1
                 
-                if self.stack >= self.max_stack :
+                if stack >= self.max_stack :
                     break
                 
-            genomes = [genome.split() for genome in genome_set]
-                
+            ## genome set formatting
+            genome_set = [genome.split() for genome in genome_set]
+            
             print(f"parents perplexities : {perplexities[parents_indx]}")
             
         return best_genome
