@@ -841,4 +841,389 @@ parents perplexities : [551.42178151 411.38571347 295.15481049 437.91781247 371.
  234.40051388 234.40051388 235.31793155 235.31793155 235.31793155
  235.31793155 235.31793155]
 Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.08s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.12it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.14it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.16it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.22it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.26it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.50it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.29it/s]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.33it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.28it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.26it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.25it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.37it/s]
+parents perplexities : [1932.18400322 1698.49866226 2480.97336985 2072.93084082 2321.57241461
+ 2130.39460051 1705.14639807 1954.95997683 1909.67337774 2056.79916504
+ 2303.50579475 1402.61516765 2189.45131429 2800.35087273 2724.81618561
+ 1786.97808229 1018.18941946 1034.22356973 1067.05334994 1071.22967867
+ 1075.42235309 1083.85699515 1088.09909148 1096.63315843 1105.23415889
+ 1109.55992308 1118.26230941 1122.63906434 1127.03294941 1127.03294941
+ 1127.03294941 1140.31805718]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.35it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.32it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.23it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.22it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.24it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.25it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.32it/s]
+best genome : [np.str_('wreath believe bow workshop we candle wonder you have in from snowglobe the hope it that joy not as fireplace toy milk chocolate poinsettia of greeting wish paper with angel eggnog wrapping to candy peace cookie and season merry hohoho doll night star puzzle card kaggle fruitcake dream peppermint game'), np.float64(774.5976629728526)]
+parents perplexities : [1880.06663623 1659.15298313 1058.7494749  1793.97211676 1773.07170853
+  994.60308696 1939.74635759 2032.83672895 1435.87722781 1307.38109359
+ 1475.68121081 1232.9778023  1993.5181074  2024.91144962 1481.45686377
+ 2001.32051667  774.59766297  780.67290774  792.96671719  802.31395793
+  824.55492013  824.55492013  831.02198452  831.02198452  834.2745126
+  834.2745126   837.53977072  837.53977072  837.53977072  837.53977072
+  837.53977072  840.8178087 ]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.37it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.37it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.33it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:03,  1.32it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.32it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.40it/s]
+best genome : [np.str_('wreath puzzle paper of greeting eggnog chocolate to from we and with joy workshop card game wish fruitcake cookie it in not you season merry hohoho that star candle peace hope as believe fireplace night kaggle poinsettia candy milk have dream toy the doll peppermint wonder wrapping snowglobe bow angel'), np.float64(657.3924983001216)]
+parents perplexities : [1122.63906434  774.59766297 1228.1708774  1924.65113168 1620.71874567
+ 1620.71874567  956.50044106 2081.04406274  824.55492013 1153.75976559
+ 1105.23415889 1144.78113586  891.55644506 1639.82326538 1181.12038996
+ 1343.62303254  657.3924983   670.35840353  670.35840353  675.61608965
+  691.6378635   697.0624465   697.0624465   699.79067177  699.79067177
+  702.52957502  705.27919804  705.27919804  705.27919804  710.81077135
+  713.59280604  713.59280604]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.50it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.42it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.36it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.34it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.34it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.43it/s]
+best genome : [np.str_('wreath toy doll workshop greeting paper eggnog the poinsettia in and with have from card game candy fruitcake cookie it of not you season merry hohoho that star joy peace hope wonder as believe night kaggle puzzle milk to candle we dream chocolate wish fireplace peppermint wrapping snowglobe bow angel'), np.float64(542.872779181642)]
+parents perplexities : [ 971.56313127 1242.64816705  805.45412597  850.72910296 1176.51563794
+ 1232.9778023  1540.4713962   994.60308696  768.56969614  654.82956784
+  647.20057229 1018.18941946  840.8178087  1397.14688934 1343.62303254
+ 1018.18941946  542.87277918  553.57998534  557.92176698  557.92176698
+  560.10541103  571.1525004   571.1525004   573.38792808  575.63210498
+  575.63210498  577.88506534  577.88506534  580.14684353  580.14684353
+  580.14684353  580.14684353]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.50it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.37it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.34it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:03,  1.33it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.32it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.41it/s]
+best genome : [np.str_('wreath toy workshop greeting eggnog we the to candle in and with have from card game candy fruitcake cookie it of not you season merry hohoho that star joy peace hope wonder as believe night kaggle puzzle milk chocolate poinsettia paper angel doll snowglobe peppermint bow wrapping wish fireplace dream'), np.float64(455.3624749331844)]
+parents perplexities : [1348.8818244   577.88506534  716.38572932  575.63210498  805.45412597
+ 1158.27545364 1408.1048482   662.54849157 1034.22356973  566.70775638
+ 1386.27420599 1042.33508572  629.74344104  670.35840353  632.20818718
+  702.52957502  455.36247493  484.73083137  494.29129036  498.16806499
+  500.11783967  500.11783967  500.11783967  500.11783967  500.11783967
+  500.11783967  500.11783967  504.0403125   504.0403125   506.01307051
+  507.99354967  507.99354967]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.49it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.41it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.35it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:03,  1.33it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.27it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.48it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.38it/s]
+best genome : [np.str_('wreath toy workshop greeting eggnog we the to season in and with have as from card game candy fruitcake cookie it of not you peppermint poinsettia merry hohoho that star joy peace hope wonder believe night kaggle puzzle milk chocolate paper angel doll snowglobe candle bow wrapping wish fireplace dream'), np.float64(400.2892857141792)]
+parents perplexities : [ 811.77138098  617.5631003   607.98867187  844.10867656  498.16806499
+  799.18603224  765.57332685  654.82956784  562.29760163  891.55644506
+  909.1408203   589.28282696 1046.4146699   683.58003832  551.42178151
+  742.01911182  400.28928571  403.42879349  406.59292474  409.78187257
+  414.61225161  414.61225161  417.8640958   421.14144453  421.14144453
+  424.44449781  424.44449781  426.10572661  426.10572661  427.77345727
+  427.77345727  429.44771524]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.49it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.38it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.33it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.27it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.28it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.28it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.30it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.51it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.38it/s]
+best genome : [np.str_('wreath toy doll workshop greeting paper the night in to with have from card game and fruitcake cookie it of not you season merry hohoho that we joy peace hope wonder as believe eggnog kaggle puzzle candy milk chocolate poinsettia candle angel star snowglobe peppermint bow wrapping wish dream fireplace'), np.float64(358.8169966923127)]
+parents perplexities : [509.98178021 662.54849157 540.75631879 518.01282467 494.29129036
+ 432.81591542 575.63210498 488.53262239 479.08354613 582.41747408
+ 564.49837222 486.6280142  622.40670773 490.44468502 716.38572932
+ 411.38571347 358.81699669 363.04661791 365.89402782 365.89402782
+ 368.76377025 368.76377025 370.20707084 371.65602034 371.65602034
+ 374.57095464 376.0369839  376.0369839  376.0369839  377.50875105
+ 377.50875105 377.50875105]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.40it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.34it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.29it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.26it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.26it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.29it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.31it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.38it/s]
+best genome : [np.str_('wreath toy workshop greeting eggnog it the to of in not with have as card game cookie fruitcake candy from wish you and season merry hohoho that we joy peace hope wonder star believe night kaggle puzzle milk chocolate poinsettia paper angel doll snowglobe peppermint bow wrapping candle fireplace dream'), np.float64(325.4328850285552)]
+parents perplexities : [573.38792808 818.13818283 429.44771524 555.74663614 549.27199172
+ 515.99328406 427.77345727 462.53339049 448.30273412 498.16806499
+ 874.31218242 511.97779246 659.96545979 509.98178021 612.75718612
+ 448.30273412 325.43288503 327.98528678 330.55770727 330.55770727
+ 331.85147355 331.85147355 331.85147355 333.1503035  333.1503035
+ 333.1503035  334.45421692 334.45421692 334.45421692 334.45421692
+ 334.45421692 334.45421692]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.38it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.31it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.25it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.26it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.28it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.29it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.37it/s]
+best genome : [np.str_('wreath toy doll workshop greeting paper the season in to with have we as card game candy fruitcake cookie it of not that you merry hohoho from and joy peace hope wonder believe star night kaggle puzzle milk chocolate poinsettia candle angel eggnog snowglobe peppermint bow wrapping wish dream fireplace'), np.float64(291.71615278815983)]
+parents perplexities : [518.01282467 632.20818718 339.72110446 498.16806499 431.12852607
+ 361.63123328 426.10572661 544.99752316 532.37266914 515.99328406
+ 571.1525004  406.59292474 427.77345727 457.14471327 424.44449781
+ 389.49216517 291.71615279 296.31001375 297.46973836 297.46973836
+ 298.63400199 299.80282243 299.80282243 299.80282243 299.80282243
+ 299.80282243 299.80282243 302.15420511 302.15420511 302.15420511
+ 302.15420511 302.15420511]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.50it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.43it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.37it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.35it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.33it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.33it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.43it/s]
+best genome : [np.str_('wreath toy workshop greeting eggnog it the to of in not with that as card game cookie fruitcake candy from and we wish you season merry hohoho have joy peace hope wonder believe star night kaggle puzzle milk chocolate poinsettia paper angel doll snowglobe peppermint bow wrapping candle fireplace dream'), np.float64(276.1913023296018)]
+parents perplexities : [381.95870474 492.36423124 482.84104495 670.35840353 371.65602034
+ 346.42150286 622.40670773 439.63177432 451.81881604 376.0369839
+ 411.38571347 346.42150286 383.45364885 316.65488818 632.20818718
+ 384.95444399 276.19130233 279.446958   279.446958   280.54068247
+ 281.63868766 282.74099032 282.74099032 282.74099032 282.74099032
+ 282.74099032 283.84760726 283.84760726 283.84760726 283.84760726
+ 283.84760726 283.84760726]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.52it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.44it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.34it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:03,  1.33it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.32it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.33it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.43it/s]
+best genome : [np.str_('wreath toy workshop greeting eggnog the of it to in not with that as card game cookie fruitcake candy from and we wish you have hohoho merry season joy peace hope wonder believe star night kaggle puzzle milk chocolate poinsettia candle angel doll snowglobe peppermint bow wrapping paper fireplace dream'), np.float64(254.43935071813848)]
+parents perplexities : [482.84104495 342.38557011 354.63665206 309.31958559 389.49216517
+ 496.22589177 414.61225161 426.10572661 339.72110446 439.63177432
+ 591.58921474 432.81591542 522.07564961 342.38557011 309.31958559
+ 347.77735829 254.43935072 254.43935072 255.43519818 255.43519818
+ 258.44618747 258.44618747 258.44618747 258.44618747 259.45771724
+ 259.45771724 259.45771724 259.45771724 259.45771724 260.47320604
+ 260.47320604 261.49266934]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.51it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.43it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.37it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.33it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.33it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.43it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and from not in it with that as card game candy fruitcake cookie eggnog we wish you season merry hohoho have joy peace hope wonder dream believe star night kaggle puzzle milk chocolate poinsettia paper doll angel snowglobe peppermint bow wrapping fireplace candle'), np.float64(219.3404304920078)]
+parents perplexities : [475.35528839 571.1525004  414.61225161 327.98528678 331.85147355
+ 338.39665739 448.30273412 398.72870568 288.31755667 405.00776915
+ 368.76377025 427.77345727 492.36423124 451.81881604 265.6105797
+ 504.0403125  219.34043049 228.97063182 230.76647074 230.76647074
+ 231.66966517 232.5763946  233.48667288 233.48667288 234.40051388
+ 234.40051388 234.40051388 235.31793155 235.31793155 235.31793155
+ 238.09178486 238.09178486]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.38it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.31it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.25it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.23it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.25it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.27it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.30it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.51it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+best genome : [np.str_('wreath toy workshop greeting from to the of and not in it with that as card game candy fruitcake cookie eggnog we wish you season have hohoho merry joy peace hope wonder believe dream star night kaggle puzzle milk chocolate poinsettia angel doll snowglobe peppermint bow wrapping paper candle fireplace'), np.float64(204.44776193681219)]
+parents perplexities : [437.91781247 374.57095464 245.64962941 290.57885929 314.19066029
+ 289.44599968 378.98627852 259.45771724 229.86679753 262.51612271
+ 397.17420978 441.35244444 339.72110446 272.97357619 350.50500992
+ 337.07737385 204.44776194 206.85772746 206.85772746 207.66734571
+ 207.66734571 208.48013272 210.11526267 210.93763056 210.93763056
+ 210.93763056 210.93763056 210.93763056 211.7632171  211.7632171
+ 211.7632171  211.7632171 ]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.51it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.43it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.36it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.33it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.33it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.43it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and from that in it with not as card game candy cookie eggnog fruitcake we wish you season have hohoho merry joy peace hope wonder believe dream star night kaggle puzzle milk chocolate poinsettia angel doll snowglobe peppermint bow wrapping paper candle fireplace'), np.float64(195.08541728258788)]
+parents perplexities : [246.61107487 292.85789753 262.51612271 221.92594608 218.48530319
+ 234.40051388 266.65015011 455.36247493 210.93763056 374.57095464
+ 488.53262239 482.84104495 391.0165944  279.446958   312.96574699
+ 226.30304316 195.08541728 198.15756558 198.93313237 199.71173463
+ 199.71173463 200.49338426 201.27809318 201.27809318 201.27809318
+ 202.06587336 202.06587336 202.06587336 202.85673683 202.85673683
+ 202.85673683 202.85673683]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.22it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.19it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.21it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.23it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.24it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.26it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.27it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.32it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and from that in it with not as card game doll candy cookie eggnog fruitcake we wish you season have hohoho merry joy peace hope wonder believe dream star night kaggle puzzle milk chocolate candle angel snowglobe peppermint bow wrapping paper poinsettia fireplace'), np.float64(189.08326999196993)]
+parents perplexities : [431.12852607 230.76647074 260.47320604 234.40051388 234.40051388
+ 249.51804819 215.09800253 360.22136671 207.66734571 271.90935308
+ 321.64147708 233.48667288 266.65015011 220.19890466 251.47504249
+ 224.5419389  189.08326999 189.82332099 189.82332099 190.56626846
+ 190.56626846 190.56626846 190.56626846 190.56626846 191.31212374
+ 191.31212374 191.31212374 191.31212374 191.31212374 192.06089823
+ 192.06089823 192.06089823]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.37it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.30it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.24it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.23it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.21it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.21it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.22it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.41it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.30it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and from that in it with not as card game doll candy cookie eggnog fruitcake we wish you season have hohoho merry joy peace hope wonder believe dream night kaggle puzzle milk chocolate peppermint snowglobe star angel candle bow wrapping paper poinsettia fireplace'), np.float64(179.7211081206401)]
+parents perplexities : [254.43935072 246.61107487 245.64962941 215.09800253 316.65488818
+ 259.45771724 242.78772454 195.84896002 298.63400199 414.61225161
+ 226.30304316 265.6105797  235.31793155 251.47504249 255.43519818
+ 316.65488818 179.72110812 180.42451665 183.26578936 183.26578936
+ 183.98307138 185.42606849 185.42606849 185.42606849 186.1518056
+ 186.1518056  186.1518056  186.1518056  186.1518056  186.1518056
+ 186.1518056  186.1518056 ]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.38it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.36it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.33it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.32it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.32it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.41it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and from that in it with not as card game doll candy cookie eggnog fruitcake we wish you season have hohoho merry joy peace hope dream believe wonder night kaggle puzzle milk chocolate peppermint snowglobe star angel candle bow wrapping paper poinsettia fireplace'), np.float64(176.24498722300464)]
+parents perplexities : [226.30304316 239.95916187 238.09178486 319.13844324 321.64147708
+ 326.70659333 288.31755667 225.42077121 334.45421692 241.8411849
+ 198.93313237 315.42036776 198.15756558 319.13844324 244.69193226
+ 210.11526267 176.24498722 176.24498722 176.24498722 177.62729379
+ 177.62729379 177.62729379 179.02044192 179.02044192 179.02044192
+ 179.72110812 180.42451665 180.42451665 180.42451665 180.42451665
+ 180.42451665 181.13067824]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.51it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.44it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.37it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.35it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.33it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.33it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.43it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and from that in it with not as card game doll candy cookie milk eggnog fruitcake we wish you season have hohoho merry joy peace hope dream believe wonder star night kaggle puzzle chocolate peppermint snowglobe angel candle bow wrapping paper poinsettia fireplace'), np.float64(171.49107938408403)]
+parents perplexities : [244.69193226 193.56725052 271.90935308 213.4240966  278.35749756
+ 206.85772746 274.04196456 220.19890466 187.61181231 214.25941489
+ 363.04661791 265.6105797  288.31755667 218.48530319 260.47320604
+ 279.446958   171.49107938 172.16227649 172.16227649 172.16227649
+ 172.83610059 174.19167093 174.19167093 174.19167093 174.87343785
+ 174.87343785 174.87343785 174.87343785 175.55787314 175.55787314
+ 175.55787314 175.55787314]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.37it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.31it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.27it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.29it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.38it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and from that in it with not as card game doll puzzle candy cookie eggnog fruitcake we wish you season have hohoho merry joy peace hope wonder believe dream night kaggle chocolate milk peppermint snowglobe star angel candle fireplace wrapping paper poinsettia bow'), np.float64(166.21485355527525)]
+parents perplexities : [246.61107487 232.5763946  208.48013272 311.74560917 197.38502245
+ 214.25941489 187.61181231 389.49216517 494.29129036 189.08326999
+ 278.35749756 214.25941489 199.71173463 225.42077121 294.00411093
+ 297.46973836 166.21485356 167.51849281 168.17414165 168.83235663
+ 168.83235663 168.83235663 169.49314779 169.49314779 169.49314779
+ 169.49314779 169.49314779 169.49314779 169.49314779 170.15652522
+ 170.15652522 170.15652522]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.42it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.40it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.35it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.33it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.33it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and from that in it with not as card game puzzle doll candy cookie eggnog fruitcake we wish you season have hohoho merry peace joy hope dream believe wonder night kaggle chocolate milk peppermint snowglobe star angel candle fireplace wrapping paper poinsettia bow'), np.float64(159.2240770935855)]
+parents perplexities : [277.27228452 202.85673683 228.07795992 211.7632171  239.02364976
+ 170.15652522 267.69378929 305.71590326 284.95855539 172.83610059
+ 215.09800253 213.4240966  225.42077121 239.02364976 232.5763946
+ 250.49463422 159.22407709 160.47288701 161.10096013 161.10096013
+ 161.73149146 161.73149146 162.36449062 162.36449062 162.36449062
+ 162.36449062 163.6379311  163.6379311  163.6379311  163.6379311
+ 163.6379311  164.27839186]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.35it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.30it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.26it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.26it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.26it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.26it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.27it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.34it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and from that in it with not as card game puzzle doll candy cookie eggnog fruitcake we wish you season have hohoho merry joy peace hope dream believe wonder night kaggle chocolate milk peppermint candle star angel snowglobe fireplace poinsettia wrapping paper bow'), np.float64(154.92927926604594)]
+parents perplexities : [242.78772454 206.85772746 296.31001375 228.97063182 189.08326999
+ 189.82332099 186.88038317 228.07795992 506.01307051 189.08326999
+ 280.54068247 354.63665206 310.53022822 291.71615279 233.48667288
+ 172.83610059 154.92927927 154.92927927 156.14440466 156.75553658
+ 156.75553658 157.36906041 157.36906041 157.36906041 157.9849855
+ 157.9849855  157.9849855  157.9849855  157.9849855  158.60332125
+ 158.60332125 158.60332125]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.49it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.39it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.31it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.28it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.27it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.27it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and from that in it with not as card game puzzle doll candy cookie eggnog fruitcake we wish you season have hohoho merry peace joy hope dream believe wonder night kaggle chocolate milk peppermint candle star angel snowglobe fireplace poinsettia wrapping paper bow'), np.float64(152.5273234252381)]
+parents perplexities : [224.5419389  272.97357619 199.71173463 254.43935072 217.63350972
+ 186.1518056  163.6379311  320.3875158  181.83960367 166.8654001
+ 262.51612271 182.55130376 218.48530319 226.30304316 272.97357619
+ 161.73149146 152.52732343 152.52732343 154.32526725 154.92927927
+ 154.92927927 154.92927927 154.92927927 154.92927927 154.92927927
+ 154.92927927 154.92927927 155.53565532 155.53565532 155.53565532
+ 155.53565532 155.53565532]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.49it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.39it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.31it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.28it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.27it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.27it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and from that in it with have not as card game puzzle doll candy cookie eggnog fruitcake we wish you season hohoho merry peace joy hope dream believe wonder night kaggle chocolate milk peppermint candle star angel snowglobe fireplace poinsettia wrapping paper bow'), np.float64(151.93267574549122)]
+parents perplexities : [244.69193226 230.76647074 225.42077121 316.65488818 169.49314779
+ 160.47288701 214.25941489 221.92594608 160.47288701 242.78772454
+ 255.43519818 167.51849281 226.30304316 161.10096013 243.73796883
+ 182.55130376 151.93267575 151.93267575 152.52732343 152.52732343
+ 152.52732343 152.52732343 152.52732343 152.52732343 152.52732343
+ 153.72361005 153.72361005 153.72361005 153.72361005 153.72361005
+ 154.32526725 154.32526725]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.36it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.25it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.18it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.16it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.15it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.18it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.21it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.27it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and from that in it with not as card game puzzle doll candy cookie eggnog fruitcake hohoho we wish you have merry season peace joy hope dream believe wonder night kaggle chocolate milk peppermint candle star angel snowglobe fireplace poinsettia wrapping paper bow'), np.float64(150.1626064581185)]
+parents perplexities : [195.08541728 365.89402782 170.82249903 200.49338426 290.57885929
+ 189.08326999 329.2689849  181.83960367 178.32250736 157.9849855
+ 181.83960367 248.54526951 170.15652522 288.31755667 246.61107487
+ 174.87343785 150.16260646 151.34034638 151.34034638 151.93267575
+ 151.93267575 151.93267575 151.93267575 151.93267575 151.93267575
+ 151.93267575 152.52732343 152.52732343 152.52732343 152.52732343
+ 152.52732343 152.52732343]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.30it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.24it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.23it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.24it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.24it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.24it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.32it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and from that in it with have not as card game puzzle doll candy cookie eggnog fruitcake hohoho we wish you season merry peace joy hope dream believe wonder night kaggle chocolate milk peppermint candle star angel snowglobe fireplace poinsettia wrapping paper bow'), np.float64(148.99403178365867)]
+parents perplexities : [174.19167093 169.49314779 219.34043049 201.27809318 248.54526951
+ 220.19890466 187.61181231 329.2689849  182.55130376 227.18876823
+ 221.06073881 174.19167093 335.76323371 158.60332125 275.11453449
+ 217.63350972 148.99403178 149.57717794 149.57717794 149.57717794
+ 149.57717794 149.57717794 150.16260646 150.16260646 150.16260646
+ 150.16260646 150.16260646 150.75032628 150.75032628 150.75032628
+ 150.75032628 150.75032628]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.49it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.37it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.30it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.27it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+best genome : [np.str_('wreath toy workshop greeting to in the of and from have that it with as not card game puzzle doll candy cookie eggnog fruitcake we wish you season merry hohoho peace joy hope dream believe wonder night kaggle chocolate milk peppermint candle star angel snowglobe fireplace poinsettia wrapping paper bow'), np.float64(146.6840934260825)]
+parents perplexities : [395.62577428 308.11366281 220.19890466 183.98307138 189.08326999
+ 178.32250736 205.24794785 171.49107938 193.56725052 291.71615279
+ 230.76647074 160.47288701 203.65069565 198.15756558 249.51804819
+ 195.08541728 146.68409343 147.83455103 148.99403178 148.99403178
+ 148.99403178 148.99403178 148.99403178 149.57717794 149.57717794
+ 149.57717794 149.57717794 149.57717794 149.57717794 149.57717794
+ 149.57717794 149.57717794]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.42it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.36it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.29it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.26it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.26it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.35it/s]
+best genome : [np.str_('wreath toy workshop greeting to in the of and from have that it with as not card game puzzle doll candy cookie eggnog fruitcake hohoho we wish you season merry peace joy hope dream believe wonder night kaggle chocolate milk peppermint candle star angel snowglobe fireplace poinsettia wrapping paper bow'), np.float64(144.4099673433467)]
+parents perplexities : [228.97063182 153.72361005 228.07795992 191.31212374 205.24794785
+ 210.11526267 160.47288701 216.78503707 179.02044192 280.54068247
+ 197.38502245 507.99354967 190.56626846 238.09178486 179.72110812
+ 181.13067824 144.40996734 144.97517197 144.97517197 146.11222634
+ 146.11222634 146.11222634 146.68409343 146.68409343 146.68409343
+ 147.25819874 147.83455103 147.83455103 147.83455103 147.83455103
+ 147.83455103 147.83455103]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.38it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.31it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.27it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.27it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+best genome : [np.str_('wreath toy workshop greeting to from the of and in have that it not as with card game puzzle doll candy cookie eggnog fruitcake hohoho we wish you season merry peace joy hope dream believe wonder night kaggle chocolate milk peppermint candle star angel snowglobe fireplace poinsettia wrapping paper bow'), np.float64(142.1710983175922)]
+parents perplexities : [158.60332125 246.61107487 232.5763946  164.27839186 216.78503707
+ 235.31793155 157.9849855  166.21485356 188.34610418 188.34610418
+ 185.42606849 291.71615279 243.73796883 164.27839186 244.69193226
+ 174.19167093 142.17109832 142.17109832 142.17109832 143.28616006
+ 144.40996734 144.40996734 144.40996734 144.40996734 144.97517197
+ 144.97517197 144.97517197 144.97517197 144.97517197 144.97517197
+ 144.97517197 145.54258875]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.45it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.41it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.36it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.32it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
+best genome : [np.str_('wreath toy workshop greeting to with the of and in have that it from as not card game puzzle doll candy cookie eggnog fruitcake hohoho we wish you season merry peace joy hope dream believe wonder night kaggle chocolate milk peppermint candle star angel snowglobe fireplace poinsettia wrapping paper bow'), np.float64(138.33627549846275)]
+parents perplexities : [179.02044192 161.73149146 246.61107487 217.63350972 322.90034623
+ 212.5920349  199.71173463 149.57717794 339.72110446 172.16227649
+ 210.11526267 264.57506218 198.93313237 177.62729379 194.32485132
+ 172.83610059 138.3362755  138.87770837 139.42126035 139.96693974
+ 140.51475485 141.06471405 141.61682573 141.61682573 142.17109832
+ 142.17109832 142.17109832 142.72754026 142.72754026 142.72754026
+ 143.28616006 143.28616006]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.36it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.26it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.19it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.17it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.18it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.21it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.22it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.28it/s]
+best genome : [np.str_('wreath toy workshop greeting to with the of and in have that it from as not card game puzzle doll candy cookie eggnog fruitcake hohoho merry we wish you season peace joy hope dream believe wonder night kaggle chocolate milk peppermint candle star angel snowglobe fireplace poinsettia wrapping paper bow'), np.float64(136.72460907194932)]
+parents perplexities : [254.43935072 151.93267575 166.21485356 176.9347906  178.32250736
+ 210.93763056 228.07795992 191.31212374 166.21485356 264.57506218
+ 248.54526951 406.59292474 161.10096013 248.54526951 207.66734571
+ 216.78503707 136.72460907 137.25973406 137.79695347 137.79695347
+ 138.3362755  138.87770837 138.87770837 138.87770837 139.42126035
+ 139.42126035 139.42126035 139.42126035 139.42126035 139.42126035
+ 139.42126035 139.96693974]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.50it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.39it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.31it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.27it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+parents perplexities : [241.8411849  208.48013272 316.65488818 189.82332099 164.27839186
+ 272.97357619 142.72754026 198.93313237 264.57506218 170.15652522
+ 203.65069565 158.60332125 163.6379311  226.30304316 189.08326999
+ 210.93763056 136.72460907 137.25973406 137.25973406 137.79695347
+ 137.79695347 137.79695347 137.79695347 137.79695347 138.3362755
+ 138.3362755  138.3362755  138.3362755  138.3362755  138.3362755
+ 138.3362755  138.3362755 ]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.38it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.35it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.29it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.26it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.35it/s]
+parents perplexities : [153.72361005 195.08541728 226.30304316 163.6379311  228.97063182
+ 213.4240966  164.27839186 284.95855539 254.43935072 191.31212374
+ 264.57506218 152.52732343 229.86679753 165.56684325 320.3875158
+ 208.48013272 136.72460907 136.72460907 136.72460907 136.72460907
+ 136.72460907 137.25973406 137.25973406 137.25973406 137.25973406
+ 137.79695347 137.79695347 137.79695347 137.79695347 137.79695347
+ 137.79695347 137.79695347]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.36it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.25it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.19it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.17it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.15it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.17it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.20it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.41it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.27it/s]
+best genome : [np.str_('wreath toy workshop greeting to with the of and in have not it from as that doll card game night puzzle candy cookie eggnog fruitcake hohoho merry we wish you season peace joy hope dream believe wonder kaggle chocolate milk peppermint candle star angel snowglobe fireplace poinsettia wrapping paper bow'), np.float64(134.60489048229144)]
+parents perplexities : [347.77735829 321.64147708 221.92594608 164.27839186 239.95916187
+ 311.74560917 200.49338426 160.47288701 166.21485356 180.42451665
+ 312.96574699 170.15652522 239.02364976 253.4473857  195.08541728
+ 231.66966517 134.60489048 135.66060972 136.19157034 136.19157034
+ 136.19157034 136.19157034 136.19157034 136.72460907 136.72460907
+ 136.72460907 136.72460907 136.72460907 136.72460907 136.72460907
+ 137.25973406 137.25973406]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.49it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.38it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.30it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.26it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+parents perplexities : [215.09800253 231.66966517 221.06073881 249.51804819 253.4473857
+ 271.90935308 270.84927897 244.69193226 150.75032628 270.84927897
+ 183.98307138 168.83235663 421.14144453 228.07795992 218.48530319
+ 169.49314779 134.60489048 135.66060972 136.19157034 136.19157034
+ 136.19157034 136.19157034 136.19157034 136.19157034 136.72460907
+ 136.72460907 136.72460907 136.72460907 136.72460907 136.72460907
+ 136.72460907 136.72460907]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.35it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.28it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.27it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.26it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.25it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.35it/s]
+best genome : [np.str_('wreath toy workshop greeting to with the of and in have not it from as that doll card game night puzzle candy cookie eggnog fruitcake hohoho season merry we wish you peace joy hope dream believe wonder kaggle chocolate milk peppermint candle fireplace snowglobe angel star poinsettia wrapping paper bow'), np.float64(133.5573869140851)]
+parents perplexities : [283.84760726 167.51849281 220.19890466 197.38502245 198.15756558
+ 432.81591542 226.30304316 161.73149146 159.22407709 187.61181231
+ 326.70659333 148.99403178 357.41810179 258.44618747 239.02364976
+ 202.85673683 133.55738691 133.55738691 134.08011575 134.60489048
+ 134.60489048 134.60489048 134.60489048 134.60489048 134.60489048
+ 134.60489048 135.66060972 135.66060972 135.66060972 135.66060972
+ 135.66060972 135.66060972]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.50it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.38it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.30it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.27it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.26it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.26it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.35it/s]
+parents perplexities : [221.06073881 168.83235663 276.19130233 189.82332099 259.45771724
+ 248.54526951 171.49107938 267.69378929 177.62729379 182.55130376
+ 179.72110812 179.02044192 174.19167093 200.49338426 206.85772746
+ 206.85772746 133.55738691 133.55738691 134.08011575 134.60489048
+ 134.60489048 134.60489048 134.60489048 134.60489048 134.60489048
+ 134.60489048 134.60489048 134.60489048 135.66060972 135.66060972
+ 135.66060972 135.66060972]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.35it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.25it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.19it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.21it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.21it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.21it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.21it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.40it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.28it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and in with have not it from as that doll card game night puzzle candy cookie eggnog fruitcake hohoho season merry we wish you peace joy hope dream believe wonder kaggle chocolate milk peppermint candle fireplace snowglobe angel star poinsettia wrapping paper bow'), np.float64(133.0366960079705)]
+parents perplexities : [138.87770837 172.16227649 207.66734571 163.6379311  242.78772454
+ 210.93763056 183.26578936 177.62729379 303.33680323 164.9213593
+ 159.84726251 251.47504249 219.34043049 158.60332125 305.71590326
+ 160.47288701 133.03669601 133.03669601 133.55738691 133.55738691
+ 133.55738691 134.08011575 134.08011575 134.08011575 134.08011575
+ 134.60489048 134.60489048 134.60489048 134.60489048 134.60489048
+ 134.60489048 134.60489048]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.38it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.31it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.26it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.27it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+parents perplexities : [217.63350972 181.13067824 272.97357619 319.13844324 171.49107938
+ 174.87343785 161.10096013 161.10096013 154.32526725 417.8640958
+ 207.66734571 341.05073527 234.40051388 169.49314779 153.72361005
+ 191.31212374 133.03669601 133.03669601 133.55738691 133.55738691
+ 133.55738691 133.55738691 134.08011575 134.08011575 134.08011575
+ 134.08011575 134.08011575 134.60489048 134.60489048 134.60489048
+ 134.60489048 134.60489048]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.35it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.25it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.18it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.20it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.21it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.22it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.24it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.30it/s]
+parents perplexities : [154.92927927 231.66966517 174.19167093 181.83960367 221.06073881
+ 163.6379311  297.46973836 155.53565532 186.1518056  248.54526951
+ 216.78503707 159.22407709 153.72361005 305.71590326 159.22407709
+ 176.9347906  133.03669601 133.03669601 133.55738691 133.55738691
+ 133.55738691 133.55738691 133.55738691 134.08011575 134.08011575
+ 134.08011575 134.08011575 134.08011575 134.08011575 134.08011575
+ 134.08011575 134.60489048]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.49it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.38it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.29it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.27it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.25it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.25it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.35it/s]
+best genome : [np.str_('wreath toy workshop greeting to the of and in with have not it from as that doll card game night puzzle eggnog cookie fruitcake hohoho season merry we wish you peace joy hope dream believe wonder kaggle chocolate milk peppermint candy candle star angel snowglobe fireplace poinsettia wrapping paper bow'), np.float64(132.51803508331912)]
+parents perplexities : [217.63350972 186.1518056  206.05126561 180.42451665 166.8654001
+ 297.46973836 298.63400199 181.83960367 266.65015011 161.73149146
+ 178.32250736 221.06073881 219.34043049 204.44776194 168.17414165
+ 229.86679753 132.51803508 133.03669601 133.03669601 133.55738691
+ 133.55738691 133.55738691 133.55738691 133.55738691 133.55738691
+ 134.08011575 134.08011575 134.08011575 134.08011575 134.08011575
+ 134.08011575 134.08011575]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.49it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.38it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.30it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.27it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.27it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+parents perplexities : [157.9849855  299.80282243 194.32485132 169.49314779 203.65069565
+ 262.51612271 238.09178486 333.1503035  238.09178486 200.49338426
+ 160.47288701 239.02364976 168.17414165 177.62729379 162.36449062
+ 151.93267575 132.51803508 133.03669601 133.03669601 133.03669601
+ 133.55738691 133.55738691 133.55738691 133.55738691 133.55738691
+ 133.55738691 133.55738691 133.55738691 134.08011575 134.08011575
+ 134.08011575 134.08011575]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.30it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.30it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.26it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.25it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.24it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.25it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.33it/s]
+parents perplexities : [403.42879349 158.60332125 165.56684325 195.84896002 195.08541728
+ 207.66734571 160.47288701 281.63868766 218.48530319 194.32485132
+ 199.71173463 149.57717794 148.99403178 228.07795992 349.13852038
+ 189.82332099 132.51803508 133.03669601 133.03669601 133.03669601
+ 133.03669601 133.55738691 133.55738691 133.55738691 133.55738691
+ 133.55738691 133.55738691 133.55738691 133.55738691 133.55738691
+ 134.08011575 134.08011575]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.35it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.30it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.27it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.26it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.26it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.26it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.26it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.34it/s]
+parents perplexities : [171.49107938 229.86679753 339.72110446 164.27839186 345.07093342
+ 316.65488818 260.47320604 181.13067824 223.66653285 185.42606849
+ 150.75032628 207.66734571 250.49463422 161.10096013 224.5419389
+ 190.56626846 132.51803508 133.03669601 133.03669601 133.03669601
+ 133.03669601 133.55738691 133.55738691 133.55738691 133.55738691
+ 133.55738691 133.55738691 133.55738691 133.55738691 133.55738691
+ 133.55738691 134.08011575]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.31it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.23it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.21it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.22it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.21it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.22it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.23it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.30it/s]
+parents perplexities : [182.55130376 213.4240966  240.89833548 170.82249903 161.10096013
+ 262.51612271 170.15652522 213.4240966  205.24794785 227.18876823
+ 198.15756558 193.56725052 164.9213593  317.89424037 310.53022822
+ 172.83610059 132.51803508 133.03669601 133.03669601 133.03669601
+ 133.03669601 133.55738691 133.55738691 133.55738691 133.55738691
+ 133.55738691 133.55738691 133.55738691 133.55738691 133.55738691
+ 133.55738691 134.08011575]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.34it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.29it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.25it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.25it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.25it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.25it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.25it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.33it/s]
