@@ -10,7 +10,7 @@ class genetic_neo :
         initial_times = 1000,
         max_stack = 10,
         cross_size = 10,
-        mutation_chances = 2,
+        mutation_chances = 1,
         dupl = False,
         crossover_method = "mixture",
         parents_size = 10,
@@ -24,25 +24,26 @@ class genetic_neo :
         self.load_in_8bit = load_in_8bit
         self.evaluatr = PerplexityCalculator("google/gemma-2-9b", load_in_8bit = self.load_in_8bit)
         
-        ## genome generate
+        ## first genomes generate
         self.genomes = ["" for _ in range(initial_times)]
                 
         for i in range(initial_times) :
             self.genomes[i] = np.random.permutation(sample.split())
         
-        self.genomes = np.array(self.genomes)
+        self.genomes = np.array(self.genomes) ## numpy array로 변경
         
         ## parameter setting
         self.max_stack = max_stack
-        self.stack = 0
+        self.stack = 0  ## current stack
         
-        self.mutation_chances = mutation_chances
-        self.cross_size = cross_size
+        self.mutation_chances = mutation_chances    ## mutation chance in crossover
+        self.cross_size = cross_size    ## crossover sample size
         self.parents_size = parents_size
         self.crossover_method = crossover_method
         self.vrbs = verbs
         self.dupl = dupl
         
+        ## use only mixture method
         if self.crossover_method == "mixture" :
             self.elite_size = elite_size
         
@@ -50,8 +51,8 @@ class genetic_neo :
         perplexities = np.array(self.evaluatr.get_perplexity([" ".join(genome) for genome in self.genomes], batch_size = self.batch_size))
         
         ## abstract parents
-        self.parents_indx = self.selection(perplexities, parents_size = self.parents_size, crossover_method = self.crossover_method, elite_size = self.elite_size)
-        self.best_genome = [" ".join(self.genomes[perplexities.argmin()]), perplexities.min()]
+        self.parents_indx = self.selection(perplexities, parents_size = self.parents_size, crossover_method = self.crossover_method, elite_size = self.elite_size)  ## abstraction parents index
+        self.best_genome = [" ".join(self.genomes[perplexities.argmin()]), perplexities.min()]  ## receive best_genome
         
         print(f"parents perplexities : {perplexities[self.parents_indx]}")
         
@@ -87,11 +88,11 @@ class genetic_neo :
         return parents_indx
     
     
-    def mutation_crossover(self, p, mutation_chances = 1) :
+    def mutation_crossover(self, p) :
         origin = np.array(p)
         lnth = len(origin)
         
-        for _ in range(mutation_chances) :
+        for _ in range(self.mutation_chances) :
             ## mutation rate : default 50%
             if np.random.random() > 0.33 :
                 dice = np.random.randint(0, 4) ## choice mutation method
@@ -144,9 +145,9 @@ class genetic_neo :
             structure[i] = t in verbs
         
         if mutation_chances > 0 :
-            structure = self.mutation_crossover(structure, mutation_chances = mutation_chances)
-            vrbs = self.mutation_crossover(vrbs, mutation_chances = mutation_chances)
-            othrs = self.mutation_crossover(othrs, mutation_chances = mutation_chances)
+            structure = self.mutation_crossover(structure)
+            vrbs = self.mutation_crossover(vrbs)
+            othrs = self.mutation_crossover(othrs)
 
         a = 0
         b = 0
@@ -211,7 +212,7 @@ class genetic_neo :
     def reputation(self, rep_times = 100) :
         ## initialize
         stack = 0
-        genome_set = self.genomes ## initial genomes : numpy.array
+        genome_set = self.genomes   ## initial genomes : numpy.array
         best_genome = self.best_genome
         parents_indx = self.parents_indx
         
@@ -231,16 +232,17 @@ class genetic_neo :
                 parents_genome = [genome_set[idx] for idx in pair]
                 
                 for _ in range(self.cross_size) :
-                    crossover_genome = self.crossover(parents_genome[0], parents_genome[1], parents_genome[2], verbs = self.vrbs, mutation_chances = 4)
-                    
-                    if i <= 10 :
+                    if stack <= self.max_stack//4 :
+                        crossover_genome = self.crossover(parents_genome[0], parents_genome[1], parents_genome[2], verbs = self.vrbs, mutation_chances = self.mutation_chances)
                         childs.append(self.mutation(crossover_genome, mutation_chances = 4))
                         
-                    else :
-                        childs.append(self.mutation(crossover_genome, mutation_chances = 2))
+                    else : 
+                        crossover_genome = self.crossover(parents_genome[0], parents_genome[1], parents_genome[2], verbs = self.vrbs, mutation_chances = self.mutation_chances*2)
+                        childs.append(self.mutation(crossover_genome, mutation_chances = 8))
+                                               
             
-            ## setting genome set
-            genome_set = np.unique([" ".join(genome) for genome in genome_set] + [best_genome[0]]) ## saving best genome in genome set
+            ## setting new genome set
+            genome_set = np.unique([" ".join(genome) for genome in childs] + [best_genome[0]]) ## saving best genome in genome set
 
             ## evaluate
             self.evaluatr.clear_gpu_memory()
