@@ -2,7 +2,10 @@ import numpy as np
 from algorithm.kaggle_evaluate import PerplexityCalculator
 from typing import List
 
-class genetic_neo :
+class genetic_neo_pmx :
+    """_summary_
+    cross_area : 
+    """
     def __init__(
         self,
         sample : str,
@@ -38,6 +41,8 @@ class genetic_neo :
         
         self.mutation_chances = mutation_chances    ## mutation chance in crossover
         self.cross_size = cross_size    ## crossover sample size
+        self.vrbs_area = [len(verbs)//(2**(2-i)) for i in range(3)]
+        self.othrs_area = [(len(sample.split()) - len(verbs))//(2**(2-i)) for i in range(3)]
         self.parents_size = parents_size
         self.crossover_method = crossover_method
         self.vrbs = verbs
@@ -88,7 +93,7 @@ class genetic_neo :
         return parents_indx
     
     
-    def mutation_crossover(self, p) :
+    def mutation_structure(self, p) :
         origin = np.array(p)
         lnth = len(origin)
         
@@ -119,14 +124,14 @@ class genetic_neo :
                 ## inverse
                 elif dice == 2 :
                     if np.random.random() < 0.5 :
-                        width = np.random.randint(3, min(5, lnth+1))
-                        start = np.random.randint(0, max(1, lnth-width))
+                        width = np.random.randint(3, 5)
+                        start = np.random.randint(0, lnth-width)
                         origin[start:start+width] = origin[start:start+width][::-1]
                     
                 ## scramble
                 elif dice == 3 :
                     if np.random.random() < 0.5 :
-                        swap_size = np.random.randint(3, min(5, lnth+1))
+                        swap_size = np.random.randint(3, 5)
                         swap_area = np.random.choice([i for i in range(lnth)], size = swap_size, replace = False)
                         
                         origin[swap_area] = np.random.permutation(np.array(origin)[swap_area])
@@ -134,10 +139,48 @@ class genetic_neo :
         return origin
     
     
+    def dupl_cleaner(self, p, clean_type) :
+        """
+        for handling duplication
+
+        Args:
+            p (List[str]): token list
+            clean_type (str): if input "labeling" then add numbering for duplicated token
+
+        Returns:
+            prnt (List[str])
+        """
+        prnt = p.copy()
+        
+        if clean_type == "labeling" :    
+            for t in set(p) :
+                times = sum(np.array(p) == t)
+                rep = 1
+                
+                if times > 1 :
+                    for j, k in enumerate(p) :
+                        if k == t :
+                            prnt[j] = f"{t}{rep}"
+                            rep += 1
+                            
+        else :
+            for j, t in enumerate(p) :
+                try :
+                    int(t[-1])
+                    prnt[j] = t[:-1]
+                except :
+                    pass
+                        
+        return prnt
+    
+    
     def crossover(self, p1, p2, p3, verbs, mutation_chances = 1) :
         structure = [None for _ in range(len(p1))]
-        vrbs = [t for t in p2 if t in verbs]
-        othrs = [t for t in p3 if t not in verbs]
+        vrbs = [[t for t in p2 if t in verbs], [t for t in p3 if t in verbs]]
+        othrs = [[t for t in p2 if t not in verbs], [t for t in p3 if t not in verbs]]
+        
+        vrb = [" " for _ in range(self.vrbs_area[2])]
+        othr = [" " for _ in range(self.othrs_area[2])]
         
         child = ["" for _ in range(len(p1))]
         
@@ -146,19 +189,78 @@ class genetic_neo :
         
         if mutation_chances > 0 :
             structure = self.mutation_crossover(structure)
-            vrbs = self.mutation_crossover(vrbs)
-            othrs = self.mutation_crossover(othrs)
 
-        a = 0
-        b = 0
+        ## crossover verbs
+        if self.dupl :
+            for i in range(2) :
+                vrbs[i] = self.dupl_cleaner(vrbs[i], "labeling")
+                
+                if np.random.random() < 0.4 :
+                    width = np.random.randint(self.vrbs_area[0], self.vrbs_area[2])
+                
+                else :
+                    width = np.random.randint(self.vrbs_area[0], self.vrbs_area[1])
+                    
+                start = np.random.randint(0, self.vrbs_area[2] - width)
+                vrbs[i] = [" " for _ in range(self.vrbs_area[2])]
+                vrbs[start:start+width] = paren
+                
+                    
+## ------------------------------ 여기서부터 하면 됨 -------------------------------------
+
         
-        for i, s in enumerate(structure) :
-            if s :
-                child[i] = vrbs[a]
-                a += 1
-            else :
-                child[i] = othrs[b]
-                b += 1
+        ## crossover other tokens
+        if self.dupl :
+            for i in range(2) :
+                othrs[i] = self.dupl_cleaner(othrs[i], "labeling")
+            
+        
+        # PMX : i is main / 1-i is sub
+        for i in range(2) :
+            for j in range(self.cross_size) :
+                if np.random.random() < 0.4 :
+                    width = np.random.randint(self.cross_area[0], self.cross_area[2])
+                    
+                else :
+                    width = np.random.randint(self.cross_area[0], self.cross_area[1])
+                    
+                start = np.random.randint(0, self.cross_area[2]-width)
+                child = [" " for _ in range(self.cross_area[2])]
+                child[start:start+width] = parents[i][start:start+width]  ## child에 교차영역 복사
+                
+                ## mapping
+                mapping_set = set(parents[1-i][start:start+width]) - set(parents[i][start:start+width])
+                
+                for t in mapping_set :
+                    sub = np.where(np.array(parents[1-i]) == t)[0][0]
+                    
+                    for k in range(self.cross_area[2]) :
+                        sub = np.where(np.array(parents[1-i]) == parents[i][sub])[0][0]
+                        
+                        if (sub < start) | (sub >= start+width) :
+                            child[sub] = t
+                            break
+                
+                ## remain set
+                current_set = [t for t in child if t != " "]
+                remain_set = [t for t in parents[1-i] if t not in current_set]
+                
+                empty_indx = [i for i, t in enumerate(child) if t == " "]
+                
+                for k, ind in enumerate(empty_indx) :
+                    child[ind] = remain_set[k]
+                    
+
+                ## text transformation
+                if dupl :
+                    for j, t in enumerate(child) :
+                        try :
+                            int(t[-1])
+                            child[j] = t[:-1]
+                        except :
+                            pass
+                
+                childs.append(child)
                 
         return child
     

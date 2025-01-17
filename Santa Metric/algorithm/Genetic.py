@@ -4,7 +4,7 @@ from algorithm.kaggle_evaluate import PerplexityCalculator
 from typing import List
 
 class genetic :
-    def __init__(self, sample : str, initial_times = 1000, max_stack = 20, cross_area = [5, 10, 20], cross_size = 1000, mutation_chances = 2, dupl = False, crossover_method = "roulette", mixture_size = None, parent_size = 10, batch_size = 1024, load_in_8bit = False) :
+    def __init__(self, sample : str, initial_times = 1000, max_stack = 20, cross_area = [5, 10, 20], cross_size = 1000, mutation_chances = 2, dupl = False, crossover_method = "roulette", elite_size = None, parent_size = 10, batch_size = 1024, load_in_8bit = False) :
         ## create evaluator
         self.batch_size = batch_size
         self.load_in_8bit = load_in_8bit
@@ -43,13 +43,13 @@ class genetic :
         elif crossover_method == "mixture" :
             self.ranking = parent_size
             
-            if mixture_size == None :
+            if elite_size == None :
                 self.subset_size = self.ranking//2
                 self.remain_size = self.ranking - self.subset_size
             
             else :
-                self.subset_size = mixture_size
-                self.remain_size = self.ranking - self.subset_size
+                self.subset_size = self.ranking - elite_size
+                self.remain_size = elite_size
             
             per_sum = sum(1/(perplexities**2))
             proba = 1/(perplexities**2)/per_sum
