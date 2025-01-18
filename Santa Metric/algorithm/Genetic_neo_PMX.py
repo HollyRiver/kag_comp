@@ -174,6 +174,52 @@ class genetic_neo_pmx :
         return prnt
     
     
+    def PMX(self, p1, p2, mapping_area) :
+        parents = [p1, p2]
+        childs = []
+        
+        for i in range(4) :
+            main_set = parents[i//2].copy()
+            sub_set = parents[i%2].copy
+
+            child = [" " for _ in range(len(p1))]
+            
+            ## PMX
+            if np.random.random() < 0.4 :
+                width = np.random.randint(mapping_area[0], mapping_area[2])
+            
+            else :
+                width = np.random.randint(mapping_area[0], mapping_area[1])
+            
+            start = np.random.randint(0, mapping_area[2] - width)
+            child[start:start+width] = main_set[start:start+width]
+            
+            ## mapping
+            mapping_set = set(main_set[start:start+width]) - set(sub_set[start:start+width])
+            
+            for t in mapping_set :
+                sub = np.where(np.array(sub_set) == t)[0][0]
+                
+                for k in range(self.cross_area[2]) :
+                    sub = np.where(np.array(sub_set) == main_set[sub])[0][0]
+                    
+                    if (sub < start) | (sub >= start+width) :
+                        child[sub] = t
+                        break
+                
+            ## remain set
+            current_set = [t for t in child if t != " "]
+            remain_set = [t for t in sub_set if t not in current_set]
+            
+            empty_indx = [i for i, t in enumerate(child) if t == " "]
+            
+            for k, ind in enumerate(empty_indx) :
+                child[ind] = remain_set[k]
+                
+            childs.append(child)
+        
+        return childs
+    
     def crossover(self, p1, p2, p3, verbs, mutation_chances = 1) :
         structure = [None for _ in range(len(p1))]
         vrbs = [[t for t in p2 if t in verbs], [t for t in p3 if t in verbs]]
@@ -194,19 +240,11 @@ class genetic_neo_pmx :
         if self.dupl :
             for i in range(2) :
                 vrbs[i] = self.dupl_cleaner(vrbs[i], "labeling")
-                
-                if np.random.random() < 0.4 :
-                    width = np.random.randint(self.vrbs_area[0], self.vrbs_area[2])
-                
-                else :
-                    width = np.random.randint(self.vrbs_area[0], self.vrbs_area[1])
-                    
-                start = np.random.randint(0, self.vrbs_area[2] - width)
-                vrbs[i] = [" " for _ in range(self.vrbs_area[2])]
-                vrbs[start:start+width] = paren
-                
-                    
-## ------------------------------ 여기서부터 하면 됨 -------------------------------------
+        
+
+                        
+                        
+## ------------------------------ 여기서부터 하면 됨 ------------------------------------- 선행되는 부모 인자를 선택, 이후 Combination을 입력하면, 4가지 경우의 수를 모두 헤아려줌.
 
         
         ## crossover other tokens

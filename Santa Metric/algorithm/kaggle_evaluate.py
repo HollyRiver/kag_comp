@@ -138,7 +138,7 @@ class PerplexityCalculator:
         load_in_8bit: bool = False,
         device_map: str = 'auto',
     ):
-        self.tokenizer = transformers.AutoTokenizer.from_pretrained(model_path)
+        self.tokenizer = transformers.AutoTokenizer.from_pretrained(model_path, padding_side = 'right')
         # Configure model loading based on quantization setting and device availability
         if load_in_8bit:
             if DEVICE.type != 'cuda':
@@ -161,107 +161,65 @@ class PerplexityCalculator:
         self.model.eval()
 
     def get_perplexity(
-        self, input_texts: Union[str, List[str]], batch_size: 32
-    ) -> Union[float, List[float]]:
-        """
-        Calculates the perplexity of given texts.
+            self, input_texts: Union[str, List[str]], batch_size: 32
+        ) -> Union[float, List[float]]:
 
-        Parameters
-        ----------
-        input_texts : str or list of str
-            A single string or a list of strings.
+            single_input = isinstance(input_texts, str)
+            input_texts = [input_texts] if single_input else input_texts
 
-        batch_size : int, default=None
-            Batch size for processing. Defaults to the number of input texts.
+            loss_list = []
 
-        debug : bool, default=False
-            Print debugging information.
+            batches = len(input_texts)//batch_size + (len(input_texts)%batch_size != 0)
+            for j in range(batches):
 
-        Returns
-        -------
-        float or list of float
-            A single perplexity value if input is a single string,
-            or a list of perplexity values if input is a list of strings.
+                a = j*batch_size
+                b = (j+1)*batch_size
+                input_batch = input_texts[a:b]
 
-        Examples
-        --------
-        >>> import pandas as pd
-        >>> model_path = "/kaggle/input/gemma-2/transformers/gemma-2-9b/2"
-        >>> scorer = PerplexityCalculator(model_path=model_path)
+                with torch.no_grad():
 
-        >>> submission = pd.DataFrame({
-        ...     'id': [0, 1, 2],
-        ...     'text': ["this is a normal english sentence", "thsi is a slihgtly misspelled zr4g sentense", "the quick brown fox jumps over the lazy dog"]
-        ... })
-        >>> perplexities = scorer.get_perplexity(submission["text"].tolist())
-        >>> perplexities[0] < perplexities[1]
-        True
-        >>> perplexities[2] < perplexities[0]
-        True
+                    # Explicitly add sequence boundary tokens to the text
+                    text_with_special = [f"{self.tokenizer.bos_token}{text}{self.tokenizer.eos_token}" for text in input_batch]
 
-        >>> perplexities = scorer.get_perplexity(["this is a sentence", "another sentence"])
-        >>> all(p > 0 for p in perplexities)
-        True
+                    # Tokenize
+                    model_inputs = self.tokenizer(
+                        text_with_special,
+                        return_tensors='pt',
+                        add_special_tokens=False,
+                        padding=True
+                    )
 
-        >>> scorer.clear_gpu_memory()
-        """
-        single_input = isinstance(input_texts, str)
-        input_texts = [input_texts] if single_input else input_texts
+                    if 'token_type_ids' in model_inputs:
+                        model_inputs.pop('token_type_ids')
 
-        loss_list = []
-        
-        batches = len(input_texts)//batch_size + (len(input_texts)%batch_size != 0)
-        
-        for j in range(batches):
-            a = j*batch_size
-            b = (j+1)*batch_size
-            input_batch = input_texts[a:b]
-        
-            with torch.no_grad():
-                # Process each sequence independently
-                # Explicitly add sequence boundary tokens to the text
-                text_with_special = [f"{self.tokenizer.bos_token}{text}{self.tokenizer.eos_token}" for text in input_batch]
+                    model_inputs = {k: v.to(DEVICE) for k, v in model_inputs.items()}
 
-                # Tokenize
-                model_inputs = self.tokenizer(
-                    text_with_special,
-                    return_tensors='pt',
-                    add_special_tokens=False,
-                    padding=True
-                )
+                    # Get model output
+                    output = self.model(**model_inputs, use_cache=False)
+                    logits = output['logits']
 
-                if 'token_type_ids' in model_inputs:
-                    model_inputs.pop('token_type_ids')
+                    label = model_inputs['input_ids']
+                    label[label == self.tokenizer.pad_token_id] = PAD_TOKEN_LABEL_ID
 
-                model_inputs = {k: v.to(DEVICE) for k, v in model_inputs.items()}
+                    # Shift logits and labels for calculating loss
+                    shift_logits = logits[..., :-1, :].contiguous()  # Drop last prediction
+                    shift_labels = label[..., 1:].contiguous()  # Drop first input
 
-                # Get model output
-                output = self.model(**model_inputs, use_cache=False)
-                logits = output['logits']
+                    # Calculate token-wise loss
+                    loss = self.loss_fct(
+                        shift_logits.view(-1, shift_logits.size(-1)),
+                        shift_labels.view(-1)
+                    )
 
-                label = model_inputs['input_ids']
-                label[label == self.tokenizer.pad_token_id] = PAD_TOKEN_LABEL_ID
+                    loss = loss.view(len(logits), -1)
+                    valid_length = (shift_labels != PAD_TOKEN_LABEL_ID).sum(dim=-1)
+                    loss = torch.sum(loss, -1) / valid_length
 
-                # Shift logits and labels for calculating loss
-                shift_logits = logits[..., :-1, :].contiguous()  # Drop last prediction
-                shift_labels = label[..., 1:].contiguous()  # Drop first input
+                    loss_list += loss.cpu().tolist()
 
-                # Calculate token-wise loss
-                loss = self.loss_fct(
-                    shift_logits.view(-1, shift_logits.size(-1)),
-                    shift_labels.view(-1)
-                )
+            ppl = [exp(i) for i in loss_list]
 
-                loss = loss.view(len(logits), -1)
-                valid_length = (shift_labels != PAD_TOKEN_LABEL_ID).sum(dim=-1)
-                loss = torch.sum(loss, -1) / valid_length
-
-                loss_list += loss.cpu().tolist()
-
-
-        ppl = [exp(i) for i in loss_list]
-
-        return ppl[0] if single_input else ppl
+            return ppl[0] if single_input else ppl
 
     def clear_gpu_memory(self) -> None:
         """Clears GPU memory by deleting references and emptying caches."""
