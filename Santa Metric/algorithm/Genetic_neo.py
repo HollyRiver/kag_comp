@@ -251,7 +251,11 @@ class genetic_neo :
             perplexities = np.array(self.evaluatr.get_perplexity(genome_set, batch_size = self.batch_size))
             
             ## select parents
-            parents_indx = self.selection(perplexities, parents_size = self.parents_size, crossover_method = self.crossover_method, elite_size = self.elite_size)
+            if stack <= self.max_stack//4 :
+                parents_indx = self.selection(perplexities, parents_size = self.parents_size, crossover_method = self.crossover_method, elite_size = self.elite_size)
+            
+            else :
+                parents_indx = self.selection(perplexities, parents_size = int(self.parents_size * 1.1), crossover_method = self.crossover_method, elite_size = self.elite_size)
             
             ## renewal
             if perplexities.min() < best_genome[1] :
@@ -269,5 +273,6 @@ class genetic_neo :
             genome_set = [genome.split() for genome in genome_set]
             
             print(f"parents perplexities : {perplexities[parents_indx]}")
+            print(f"parents : {parents_indx[(self.parents_size - self.elite_size):]}") ## debuging
             
         return best_genome
