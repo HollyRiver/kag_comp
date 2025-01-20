@@ -3,7 +3,7 @@ import itertools
 from algorithm.kaggle_evaluate import PerplexityCalculator
 from typing import List
 
-class genetic_neo_pmx :
+class genetic_brute :
     """_summary_
     cross_area : 
     """
@@ -14,7 +14,7 @@ class genetic_neo_pmx :
         initial_times = 1000,
         max_stack = 10,
         cross_size = 10,
-        mutation_chances = 1,
+        mutation_chances = 2,
         dupl = False,
         crossover_method = "mixture",
         parents_size = 10,
@@ -47,12 +47,14 @@ class genetic_neo_pmx :
         
         self.mutation_chances = mutation_chances    ## mutation chance in crossover
         self.cross_size = cross_size    ## crossover sample size
-        self.vrbs_area = [len(verbs)//(2**(2-i)) for i in range(3)]
         self.othrs_area = [(len(sample.split()) - len(verbs))//(2**(2-i)) for i in range(3)]
         self.parents_size = parents_size
         self.crossover_method = crossover_method
         self.vrbs = verbs
         self.dupl = dupl
+        
+        ## verbs setting
+        self.vrbs_set = list(itertools.permutations(verbs)) ## v! setting
         
         ## use only mixture method
         if self.crossover_method == "mixture" :
@@ -66,7 +68,7 @@ class genetic_neo_pmx :
         self.best_genome = [" ".join(self.genomes[perplexities.argmin()]), perplexities.min()]  ## receive best_genome
         
         print(f"parents perplexities : {perplexities[self.parents_indx]}")
-        
+
         
     def selection(self, perplexities, crossover_method = "mixture", parents_size = 20, elite_size = 10) :
         perps = np.array(perplexities)
@@ -99,55 +101,9 @@ class genetic_neo_pmx :
         return parents_indx
     
     
-    def mutation_structure(self, p) :
-        origin = np.array(p)
-        lnth = len(origin)
-        
-        for _ in range(self.mutation_chances) :
-            ## mutation rate : default 50%
-            if np.random.random() > 0.33 :
-                dice = np.random.randint(0, 4) ## choice mutation method
-                
-                ## swap
-                if dice == 0 :
-                    swap_area = np.random.choice([k for k in range(lnth)], size = 2, replace = False)
-                    origin[swap_area[0]], origin[swap_area[1]] = origin[swap_area[1]], origin[swap_area[0]]
-                    
-                ## move
-                elif dice == 1 :
-                    moving_indx = np.random.randint(0, lnth)
-                    mover = origin[moving_indx]
-                    
-                    moving_area = np.random.randint(0, lnth)
-                    
-                    ## trick
-                    tmp = list(origin)
-                    del tmp[moving_indx]
-                    tmp.insert(moving_area, mover)
-                    
-                    origin = np.array(tmp)
-                    
-                ## inverse
-                elif dice == 2 :
-                    if np.random.random() < 0.5 :
-                        width = np.random.randint(3, 5)
-                        start = np.random.randint(0, lnth-width)
-                        origin[start:start+width] = origin[start:start+width][::-1]
-                    
-                ## scramble
-                elif dice == 3 :
-                    if np.random.random() < 0.5 :
-                        swap_size = np.random.randint(3, 5)
-                        swap_area = np.random.choice([i for i in range(lnth)], size = swap_size, replace = False)
-                        
-                        origin[swap_area] = np.random.permutation(np.array(origin)[swap_area])
-        
-        return origin
-    
-    
     def dupl_cleaner(self, p, clean_type) :
         """
-        for handling duplication
+        for handling duplication (대충 씀)
 
         Args:
             p (List[str]): token list
@@ -181,6 +137,17 @@ class genetic_neo_pmx :
     
     
     def PMX(self, p1, p2, mapping_area) :
+        """_summary_
+        부모 둘을 넣으면 PMX 방식으로 순열교차 후 두 개의 자녀를 리턴
+
+        Args:
+            p1 (List[str]): 부모 1
+            p2 (List[str]): 부모 2
+            mapping_area (List[a, b, c]): 세 개의 정수로 이뤄진 리스트, 각각 최소 교차 영역, 최대 교차 영역, 조건부 최대 교차 영역
+
+        Returns:
+            List[List[str], List[str]]: 각 부모를 메인으로 하는 두 개의 자녀 유전자
+        """
         parents = [p1, p2]
         childs = []
         
@@ -225,61 +192,54 @@ class genetic_neo_pmx :
         
         return childs
     
-    def crossover(self, p1, p2, p3, verbs, mutation_chances = 1) :
+    def crossover(self, p1, p2, p3, verbs) :
         structure = [None for _ in range(len(p1))]
-        vrbs = [[t for t in p2 if t in verbs], [t for t in p3 if t in verbs]]
         othrs = [[t for t in p2 if t not in verbs], [t for t in p3 if t not in verbs]]
         
         childs = []
         
         for i, t in enumerate(p1) :
             structure[i] = t in verbs
-        
-        if mutation_chances > 0 :
-            structure = self.mutation_structure(structure)
 
         ## crossover
         if self.dupl :
             for i in range(2) :
-                vrbs[i] = self.dupl_cleaner(vrbs[i], "labeling")
                 othrs[i] = self.dupl_cleaner(othrs[i], "labeling")
-        
-        vrbs_childs = self.PMX(vrbs[0], vrbs[1], self.vrbs_area) ## two sets
+                
         othrs_childs = self.PMX(othrs[0], othrs[1], self.othrs_area) ## two sets
         
         if self.dupl :
             for i in range(2) :
-                vrbs_childs[i] = self.dupl_cleaner(vrbs_childs[i], "cleaning")
                 othrs_childs[i] = self.dupl_cleaner(othrs_childs[i], "cleaning")
         
-        ## merge childs
-        for i in range(4) :
-            child = ["" for _ in range(len(p1))]
-            
-            a = 0
-            b = 0
-            
-            for j, s in enumerate(structure) :
-                vrbs = vrbs_childs[i//2]
-                othrs = othrs_childs[i%2]
+        ## merge childs : 2 times v!
+        for i in range(2) :
+            for verb in self.vrbs_set :
+                child = ["" for _ in range(len(p1))]
                 
-                if s :
-                    child[j] = vrbs[a]
-                    a += 1
-                else :
-                    child[j] = othrs[b]
-                    b += 1
+                a = 0
+                b = 0
                 
-            childs.append(child)
+                for j, s in enumerate(structure) :
+                    othrs = othrs_childs[i]
+                    
+                    if s :
+                        child[j] = verb[a]
+                        a += 1
+                    else :
+                        child[j] = othrs[b]
+                        b += 1
+                    
+                childs.append(child)
         
-        return childs ## return 4 childs
+        return childs ## return 2 times v! childs
     
 
-    def mutation(self, genome, mutation_chances = 2) :
+    def mutation(self, genome) :
         origin = np.array(genome)
         lnth = len(origin)
         
-        for _ in range(mutation_chances) :
+        for _ in range(self.mutation_chances) :
             ## mutate randomly
             if np.random.random() > 0.75 :
                 dice = np.random.randint(0, 4)
@@ -345,13 +305,14 @@ class genetic_neo_pmx :
                 parents_genome = [genome_set[idx] for idx in pair]
                 
                 for _ in range(cross_size) :
-                    crossover_genomes = self.crossover(parents_genome[0], parents_genome[1], parents_genome[2], verbs = self.vrbs, mutation_chances = self.mutation_chances)
+                    crossover_genomes = self.crossover(parents_genome[0], parents_genome[1], parents_genome[2], self.vrbs)
+                    
                     for genome in crossover_genomes :
-                        childs.append(self.mutation(genome, mutation_chances = 2))
+                        childs.append(self.mutation(genome))
 
             
             ## setting new genome set
-            genome_set = np.unique([" ".join(genome) for genome in childs] + [best_genome[0]]) ## saving best genome in genome set
+            genome_set = np.unique([" ".join(genome) for genome in childs]) ## elitism 제거로 더 다양한 최적화 가능성 확보
 
             ## evaluate
             self.evaluatr.clear_gpu_memory()
@@ -378,7 +339,7 @@ class genetic_neo_pmx :
                 cross_size = self.cross_size
                 
             else :
-                parents_indx = self.selection(perplexities, parents_size = int(self.parents_size * 1.2), crossover_method = self.crossover_method, elite_size = self.elite_size)
+                parents_indx = self.selection(perplexities, parents_size = self.parents_size + 1, crossover_method = self.crossover_method, elite_size = self.elite_size)
                 cross_size = int(self.cross_size * 0.6)
                 
             ## genome set formatting
