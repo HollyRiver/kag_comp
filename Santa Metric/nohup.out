@@ -2083,3 +2083,213 @@ parents perplexities : [ 427.77345727  475.35528839  538.6481097   768.56969614 
   507.99354967  444.81401456 1026.17517805  484.73083137  733.37432732
   258.44618747  259.45771724  260.47320604  263.54358177]
 Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.03s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.16it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.23it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.30it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.28it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.24it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.22it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.22it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.26it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.29it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.37it/s]
+parents perplexities : [4653.20961379  202.06587336  225.42077121  258.44618747]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.06it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.21it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.28it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.34it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.59it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.39it/s]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.28it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.23it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.22it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.22it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.21it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.22it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.27it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.49it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.32it/s]
+parents perplexities : [1822.22306687  202.06587336  225.42077121  258.44618747]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.03it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.17it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.24it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.31it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.35it/s]
+607.9886718701034
+202.06587336346374
+225.42077120508256
+258.44618746623325
+parents perplexities : [607.98867187 202.06587336 225.42077121 258.44618747]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'chimney' 'ornament' 'holly' 'the' 'naughty'
+  'decorations' 'nice' 'and' 'grinch' 'workshop' 'is' 'of' 'stocking'
+  'magi' 'nutcracker' 'sleigh' 'polar' 'visit' 'beard']
+ ['sleigh' 'of' 'the' 'magi' 'yuletide' 'cheer' 'is' 'unwrap' 'gifts'
+  'and' 'eat' 'cheer' 'holiday' 'decorations' 'holly' 'jingle' 'relax'
+  'sing' 'carol' 'visit' 'workshop' 'grinch' 'naughty' 'nice' 'chimney'
+  'stocking' 'ornament' 'nutcracker' 'polar' 'beard']]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['ornament' 'yuletide' 'is' 'the' 'unwrap' 'of' 'holiday' 'decorations'
+  'gifts' 'eat' 'relax' 'cheer' 'cheer' 'carol' 'sing' 'holly' 'jingle'
+  'sleigh' 'workshop' 'naughty' 'and' 'nice' 'chimney' 'stocking'
+  'nutcracker' 'magi' 'visit' 'grinch' 'polar' 'beard']]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.61it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.50it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.40it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.49it/s]
+225.42077120508256
+239.02364975839862
+225.42077120508256
+258.44618746623325
+parents perplexities : [225.42077121 239.02364976 225.42077121 258.44618747]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['sleigh' 'of' 'the' 'magi' 'yuletide' 'cheer' 'unwrap' 'is' 'gifts'
+  'and' 'eat' 'cheer' 'holiday' 'decorations' 'holly' 'jingle' 'relax'
+  'sing' 'carol' 'visit' 'workshop' 'grinch' 'naughty' 'nice' 'chimney'
+  'stocking' 'ornament' 'nutcracker' 'polar' 'beard']]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['ornament' 'yuletide' 'is' 'the' 'unwrap' 'of' 'holiday' 'decorations'
+  'gifts' 'eat' 'relax' 'cheer' 'cheer' 'carol' 'sing' 'holly' 'jingle'
+  'sleigh' 'workshop' 'naughty' 'and' 'nice' 'chimney' 'stocking'
+  'nutcracker' 'magi' 'visit' 'grinch' 'polar' 'beard']]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.01it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.18it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.24it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+225.42077120508256
+202.06587336346374
+225.42077120508256
+258.44618746623325
+parents perplexities : [225.42077121 202.06587336 225.42077121 258.44618747]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['sleigh' 'of' 'the' 'magi' 'yuletide' 'cheer' 'is' 'unwrap' 'gifts'
+  'and' 'eat' 'cheer' 'holiday' 'decorations' 'holly' 'jingle' 'relax'
+  'sing' 'carol' 'visit' 'workshop' 'grinch' 'naughty' 'nice' 'chimney'
+  'stocking' 'ornament' 'nutcracker' 'polar' 'beard']]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['ornament' 'yuletide' 'is' 'the' 'unwrap' 'of' 'holiday' 'decorations'
+  'gifts' 'eat' 'relax' 'cheer' 'cheer' 'carol' 'sing' 'holly' 'jingle'
+  'sleigh' 'workshop' 'naughty' 'and' 'nice' 'chimney' 'stocking'
+  'nutcracker' 'magi' 'visit' 'grinch' 'polar' 'beard']]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.03s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.09it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.13it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.19it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.24it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.28it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.30it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.31it/s]
+225.42077120508256
+202.06587336346374
+225.42077120508256
+258.44618746623325
+parents perplexities : [225.42077121 202.06587336 225.42077121 258.44618747]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['sleigh' 'of' 'the' 'magi' 'yuletide' 'cheer' 'is' 'unwrap' 'gifts'
+  'and' 'eat' 'cheer' 'holiday' 'decorations' 'holly' 'jingle' 'relax'
+  'sing' 'carol' 'visit' 'workshop' 'grinch' 'naughty' 'nice' 'chimney'
+  'stocking' 'ornament' 'nutcracker' 'polar' 'beard']]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['ornament' 'yuletide' 'is' 'the' 'unwrap' 'of' 'holiday' 'decorations'
+  'gifts' 'eat' 'relax' 'cheer' 'cheer' 'carol' 'sing' 'holly' 'jingle'
+  'sleigh' 'workshop' 'naughty' 'and' 'nice' 'chimney' 'stocking'
+  'nutcracker' 'magi' 'visit' 'grinch' 'polar' 'beard']]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.09it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.22it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.27it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.31it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.33it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.29it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+225.42077120508256
+202.06587336346374
+225.42077120508256
+258.44618746623325
+parents perplexities : [225.42077121 202.06587336 225.42077121 258.44618747]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['sleigh' 'of' 'the' 'magi' 'yuletide' 'cheer' 'is' 'unwrap' 'gifts'
+  'and' 'eat' 'cheer' 'holiday' 'decorations' 'holly' 'jingle' 'relax'
+  'sing' 'carol' 'visit' 'workshop' 'grinch' 'naughty' 'nice' 'chimney'
+  'stocking' 'ornament' 'nutcracker' 'polar' 'beard']]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['ornament' 'yuletide' 'is' 'the' 'unwrap' 'of' 'holiday' 'decorations'
+  'gifts' 'eat' 'relax' 'cheer' 'cheer' 'carol' 'sing' 'holly' 'jingle'
+  'sleigh' 'workshop' 'naughty' 'and' 'nice' 'chimney' 'stocking'
+  'nutcracker' 'magi' 'visit' 'grinch' 'polar' 'beard']]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.08it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.22it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.26it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.38it/s]
+225.42077120508256
+202.06587336346374
+225.42077120508256
+258.44618746623325
+parents perplexities : [225.42077121 202.06587336 225.42077121 258.44618747]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['sleigh' 'of' 'the' 'magi' 'yuletide' 'cheer' 'is' 'unwrap' 'gifts'
+  'and' 'eat' 'cheer' 'holiday' 'decorations' 'holly' 'jingle' 'relax'
+  'sing' 'carol' 'visit' 'workshop' 'grinch' 'naughty' 'nice' 'chimney'
+  'stocking' 'ornament' 'nutcracker' 'polar' 'beard']]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['ornament' 'yuletide' 'is' 'the' 'unwrap' 'of' 'holiday' 'decorations'
+  'gifts' 'eat' 'relax' 'cheer' 'cheer' 'carol' 'sing' 'holly' 'jingle'
+  'sleigh' 'workshop' 'naughty' 'and' 'nice' 'chimney' 'stocking'
+  'nutcracker' 'magi' 'visit' 'grinch' 'polar' 'beard']]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.01s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.14it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.23it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.28it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.31it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+225.42077120508256
+202.06587336346374
+225.42077120508256
+258.44618746623325
+parents perplexities : [225.42077121 202.06587336 225.42077121 258.44618747]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['sleigh' 'of' 'the' 'magi' 'yuletide' 'cheer' 'is' 'unwrap' 'gifts'
+  'and' 'eat' 'cheer' 'holiday' 'decorations' 'holly' 'jingle' 'relax'
+  'sing' 'carol' 'visit' 'workshop' 'grinch' 'naughty' 'nice' 'chimney'
+  'stocking' 'ornament' 'nutcracker' 'polar' 'beard']]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['ornament' 'yuletide' 'is' 'the' 'unwrap' 'of' 'holiday' 'decorations'
+  'gifts' 'eat' 'relax' 'cheer' 'cheer' 'carol' 'sing' 'holly' 'jingle'
+  'sleigh' 'workshop' 'naughty' 'and' 'nice' 'chimney' 'stocking'
+  'nutcracker' 'magi' 'visit' 'grinch' 'polar' 'beard']]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.23it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.29it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.26it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.39it/s]
+225.42077120508256
+202.06587336346374
+225.42077120508256
+258.44618746623325
+parents perplexities : [225.42077121 202.06587336 225.42077121 258.44618747]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['sleigh' 'of' 'the' 'magi' 'yuletide' 'cheer' 'is' 'unwrap' 'gifts'
+  'and' 'eat' 'cheer' 'holiday' 'decorations' 'holly' 'jingle' 'relax'
+  'sing' 'carol' 'visit' 'workshop' 'grinch' 'naughty' 'nice' 'chimney'
+  'stocking' 'ornament' 'nutcracker' 'polar' 'beard']]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['ornament' 'yuletide' 'is' 'the' 'unwrap' 'of' 'holiday' 'decorations'
+  'gifts' 'eat' 'relax' 'cheer' 'cheer' 'carol' 'sing' 'holly' 'jingle'
+  'sleigh' 'workshop' 'naughty' 'and' 'nice' 'chimney' 'stocking'
+  'nutcracker' 'magi' 'visit' 'grinch' 'polar' 'beard']]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.02it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.12it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.20it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.26it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.28it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.34it/s]
+225.42077120508256
+202.06587336346374
+225.42077120508256
+258.44618746623325
+parents perplexities : [225.42077121 202.06587336 225.42077121 258.44618747]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['sleigh' 'of' 'the' 'magi' 'yuletide' 'cheer' 'is' 'unwrap' 'gifts'
+  'and' 'eat' 'cheer' 'holiday' 'decorations' 'holly' 'jingle' 'relax'
+  'sing' 'carol' 'visit' 'workshop' 'grinch' 'naughty' 'nice' 'chimney'
+  'stocking' 'ornament' 'nutcracker' 'polar' 'beard']]
+[['jingle' 'yuletide' 'carol' 'sing' 'unwrap' 'gifts' 'relax' 'eat'
+  'holiday' 'cheer' 'cheer' 'decorations' 'ornament' 'holly' 'stocking'
+  'naughty' 'and' 'nice' 'chimney' 'sleigh' 'workshop' 'visit' 'of' 'the'
+  'magi' 'nutcracker' 'grinch' 'polar' 'is' 'beard']
+ ['ornament' 'yuletide' 'is' 'the' 'unwrap' 'of' 'holiday' 'decorations'
+  'gifts' 'eat' 'relax' 'cheer' 'cheer' 'carol' 'sing' 'holly' 'jingle'
+  'sleigh' 'workshop' 'naughty' 'and' 'nice' 'chimney' 'stocking'
+  'nutcracker' 'magi' 'visit' 'grinch' 'polar' 'beard']]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:06,  1.08it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.21it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.27it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.32it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.33it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.38it/s]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.37it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.42it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.41it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.42it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.40it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.61it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.48it/s]
+parents perplexities : [1140.31805718  994.60308696  780.67290774  975.36572185  960.24407794
+  983.01561002 1092.35779092 1018.18941946 1038.27140633 1354.16119859
+  657.3924983  1262.21702827  632.20818718  647.20057229  654.82956784
+  654.82956784]
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.35it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.38it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.37it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.36it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.35it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.44it/s]

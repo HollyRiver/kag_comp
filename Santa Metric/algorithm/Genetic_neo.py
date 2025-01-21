@@ -30,7 +30,7 @@ class genetic_neo :
         for i in range(initial_times) :
             self.genomes[i] = np.random.permutation(sample.split())
         
-        self.genomes = np.array(self.genomes) ## numpy array로 변경
+        self.genomes = np.array(self.genomes)
         
         ## parameter setting
         self.max_stack = max_stack
