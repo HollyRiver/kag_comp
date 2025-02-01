@@ -15963,10 +15963,50 @@ Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1
 Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.22it/s]
 Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.40it/s]
 Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.28it/s]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.33it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.33it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.32it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.32it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.33it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.34it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.35it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.35it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.26it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.28it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.40it/s]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.31it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.18it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.21it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.27it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.28it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.29it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.31it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.35it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.26it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.23it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.06it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.09it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.15it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.20it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.41it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.25it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.33it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.33it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.32it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.32it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.33it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.34it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.35it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.35it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.26it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.28it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.40it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.31it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.18it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.21it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.27it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.28it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.29it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.31it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.36it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.35it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.26it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.23it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.06it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.09it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.15it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.20it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.41it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.25it/s]
 starting optimization
 ===== Simulated Annealing Progress =====
 Time: 2025-01-27 22:28:56
@@ -18329,10 +18369,30 @@ Traceback (most recent call last):
   File "/root/kag_comp/Santa Metric/alpabetical.py", line 692, in <module>
     pickle.dump(best_solutions)
 TypeError: dump() missing required argument 'file' (pos 2)
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.36it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.29it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.30it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.31it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.29it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.35it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.60it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.41it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.36it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.29it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.30it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.31it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.29it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.35it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.60it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.41it/s]
 parents perplexities : [699.79067177 905.59641614 768.56969614 945.35687339  74.33588057
   74.33588057  74.33588057  74.62682298]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.65it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.52it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.47it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.47it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.47it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.65it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.52it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.47it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.47it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.47it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]
 parents perplexities : [ 78.82163382 551.42178151  97.71267163  75.50650036  74.33588057
   74.33588057  74.33588057  74.33588057]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -18387,11 +18447,41 @@ parents perplexities : [ 78.82163382 551.42178151  97.71267163  75.50650036  74.
   'fireplace' 'angel' 'sleep' 'walk' 'carol' 'sing' 'holiday'
   'decorations' 'ornament' 'night' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.51it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.50it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.35it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.34it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.28it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.27it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.38it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.51it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.50it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.35it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.34it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.28it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.27it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.38it/s]
 parents perplexities : [ 874.31218242  986.86302433  909.1408203  1190.38403199   74.33588057
    74.33588057   74.33588057   74.62682298]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.45it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.34it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.33it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.48it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.45it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.34it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.33it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.42it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.48it/s]
 parents perplexities : [ 84.8942403   77.90333397 469.81723153  87.24759533  74.33588057
   74.33588057  74.33588057  74.33588057]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -18446,7 +18536,17 @@ parents perplexities : [ 84.8942403   77.90333397 469.81723153  87.24759533  74.
   'fireplace' 'angel' 'sleep' 'walk' 'carol' 'sing' 'holiday'
   'decorations' 'ornament' 'night' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.02s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.24it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.32it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:02,  1.37it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.39it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.40it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.64it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.44it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.02s/it]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.24it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.32it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:02,  1.37it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.39it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.40it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.42it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.64it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.44it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting merry unwrap give as we the of to from toy doll nutcracker ornament snowglobe game card puzzle advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar beard elf workshop workshop naughty and nice wrapping paper bow poinsettia holly mistletoe jingle relax have family peace joy hope dream wish believe wonder night magi visit with gifts in stocking chimney fireplace chimney fireplace star angel sleep walk carol sing holiday decorations ornament night kaggle of the that it is season cheer cheer'), np.float64(74.04607243930377)]
 parents perplexities : [ 80.690835   100.02986086  85.22650696  77.90333397  74.04607244
   74.33588057  74.33588057  74.33588057]
@@ -18502,7 +18602,17 @@ parents perplexities : [ 80.690835   100.02986086  85.22650696  77.90333397  74.
   'fireplace' 'angel' 'sleep' 'walk' 'carol' 'sing' 'holiday'
   'decorations' 'ornament' 'night' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.48it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.45it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.45it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.70it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.48it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.45it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.45it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.70it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting merry unwrap give as we the of to from toy doll ornament snowglobe game card puzzle advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar beard elf workshop workshop naughty and nice wrapping paper bow nutcracker poinsettia holly mistletoe jingle relax have family peace joy hope wish dream believe wonder night magi visit with gifts in stocking chimney fireplace chimney fireplace star angel sleep walk carol sing holiday decorations ornament night kaggle of the that it is season cheer cheer'), np.float64(72.89809449073893)]
 parents perplexities : [ 90.72314441  84.8942403  100.42136666 109.86130977  72.89809449
   73.18340957  73.18340957  73.46984133]
@@ -18558,7 +18668,17 @@ parents perplexities : [ 90.72314441  84.8942403  100.42136666 109.86130977  72.
   'chimney' 'fireplace' 'angel' 'sleep' 'walk' 'carol' 'sing' 'holiday'
   'decorations' 'ornament' 'night' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.59it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.52it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.43it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.41it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.64it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.51it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.59it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.52it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.43it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.41it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.64it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.51it/s]
 parents perplexities : [ 88.62154503  95.44916003 100.42136666 118.32528684  72.89809449
   73.18340957  73.18340957  73.46984133]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -18613,7 +18733,17 @@ parents perplexities : [ 88.62154503  95.44916003 100.42136666 118.32528684  72.
   'chimney' 'fireplace' 'angel' 'sleep' 'walk' 'carol' 'sing' 'holiday'
   'decorations' 'ornament' 'night' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.63it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.70it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.61it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.52it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.49it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:01,  1.46it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.63it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.70it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.61it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.52it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.49it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:01,  1.46it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.45it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]
 parents perplexities : [161.10096013  92.5124981  146.68409343 148.99403178  72.89809449
   72.89809449  73.18340957  73.18340957]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -18668,7 +18798,17 @@ parents perplexities : [161.10096013  92.5124981  146.68409343 148.99403178  72.
   'fireplace' 'star' 'angel' 'sleep' 'walk' 'carol' 'sing' 'holiday'
   'decorations' 'ornament' 'night' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.43it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.33it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.36it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.62it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.46it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.43it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.33it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.36it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.38it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.62it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.46it/s]
 parents perplexities : [172.16227649  86.56862916 140.51475485  79.43983955  72.89809449
   72.89809449  72.89809449  72.89809449]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -18723,7 +18863,17 @@ parents perplexities : [172.16227649  86.56862916 140.51475485  79.43983955  72.
   'fireplace' 'star' 'angel' 'sleep' 'walk' 'carol' 'sing' 'holiday'
   'decorations' 'ornament' 'night' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.61it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.52it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.46it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.43it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.61it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.52it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.46it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.43it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting merry unwrap give as we the of to from toy doll ornament snowglobe game night card puzzle advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar beard elf workshop workshop naughty and nice wrapping paper bow nutcracker poinsettia holly mistletoe jingle relax have family peace joy hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace chimney fireplace star angel sleep walk carol sing holiday decorations ornament night kaggle of the that it is season cheer cheer'), np.float64(72.61389175398708)]
 parents perplexities : [116.9467555  100.42136666  95.44916003  81.64199302  72.61389175
   72.89809449  72.89809449  72.89809449]
@@ -18779,7 +18929,17 @@ parents perplexities : [116.9467555  100.42136666  95.44916003  81.64199302  72.
   'fireplace' 'star' 'angel' 'sleep' 'walk' 'carol' 'sing' 'holiday'
   'decorations' 'ornament' 'night' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.58it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.58it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
 parents perplexities : [109.43300111 123.52039078 134.08011575  91.07822476  72.61389175
   72.89809449  72.89809449  72.89809449]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -18834,7 +18994,17 @@ parents perplexities : [109.43300111 123.52039078 134.08011575  91.07822476  72.
   'fireplace' 'star' 'angel' 'sleep' 'walk' 'carol' 'sing' 'holiday'
   'decorations' 'ornament' 'night' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.49it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.44it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.44it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.70it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.49it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.44it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.44it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.70it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting merry unwrap give as we the of to from toy doll ornament snowglobe game night puzzle card advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar beard elf workshop workshop naughty and nice wrapping paper bow nutcracker poinsettia holly mistletoe jingle relax have family peace joy hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace chimney fireplace star angel sleep walk carol sing holiday decorations ornament night kaggle of the that it is season cheer cheer'), np.float64(72.04880596519355)]
 parents perplexities : [ 83.25223705  81.96153075 109.00636227 116.49082331  72.04880597
   72.33079702  72.61389175  72.61389175]
@@ -18890,7 +19060,17 @@ parents perplexities : [ 83.25223705  81.96153075 109.00636227 116.49082331  72.
   'fireplace' 'star' 'angel' 'sleep' 'walk' 'carol' 'sing' 'holiday'
   'decorations' 'ornament' 'night' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.39it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.35it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.38it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.40it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.49it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.39it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.35it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.38it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.40it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.42it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.49it/s]
 parents perplexities : [116.03666863 129.44825811  85.22650696  82.604363    72.04880597
   72.33079702  72.33079702  72.33079702]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -18945,7 +19125,17 @@ parents perplexities : [116.03666863 129.44825811  85.22650696  82.604363    72.
   'fireplace' 'star' 'angel' 'sleep' 'walk' 'carol' 'sing' 'holiday'
   'decorations' 'ornament' 'night' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.60it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.62it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.51it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.43it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.60it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.62it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.51it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.43it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]
 parents perplexities : [ 84.8942403  103.20514949  90.72314441  94.70636877  72.04880597
   72.04880597  72.33079702  72.33079702]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -19000,7 +19190,17 @@ parents perplexities : [ 84.8942403  103.20514949  90.72314441  94.70636877  72.
   'chimney' 'star' 'angel' 'sleep' 'walk' 'carol' 'sing' 'holiday'
   'decorations' 'ornament' 'night' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.51it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.49it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.43it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.51it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.49it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.43it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.45it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting merry unwrap give as we the of to from toy doll ornament snowglobe game night puzzle card advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar beard elf workshop workshop naughty and nice wrapping paper bow nutcracker poinsettia holly mistletoe jingle relax have family peace joy hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace chimney fireplace star night angel sleep walk carol sing holiday decorations ornament kaggle of the that it is season cheer cheer'), np.float64(71.48811770889668)]
 parents perplexities : [79.43983955 90.72314441 77.90333397 90.72314441 71.48811771 71.76791429
  72.04880597 72.04880597]
@@ -19056,7 +19256,17 @@ parents perplexities : [79.43983955 90.72314441 77.90333397 90.72314441 71.48811
   'fireplace' 'star' 'angel' 'sleep' 'walk' 'carol' 'sing' 'holiday'
   'decorations' 'ornament' 'night' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.42it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.42it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.42it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.43it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.42it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.42it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.42it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.43it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting merry unwrap give as we the of to from toy doll ornament snowglobe game night puzzle card advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar beard elf workshop workshop naughty and nice wrapping paper bow nutcracker poinsettia holly mistletoe jingle relax have family peace joy hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night walk carol sing holiday decorations ornament kaggle of the that it is season cheer cheer'), np.float64(70.93179276322707)]
 parents perplexities : [76.39654709 76.09870518 79.75075829 81.00664999 70.93179276 71.48811771
  71.48811771 71.76791429]
@@ -19112,7 +19322,17 @@ parents perplexities : [76.39654709 76.09870518 79.75075829 81.00664999 70.93179
   'chimney' 'star' 'night' 'angel' 'sleep' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'ornament' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.43it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.41it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.51it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.43it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.41it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.51it/s]
 parents perplexities : [101.60510196  94.33714363  87.24759533  96.95226558  70.93179276
   71.20941195  71.20941195  71.48811771]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -19167,7 +19387,17 @@ parents perplexities : [101.60510196  94.33714363  87.24759533  96.95226558  70.
   'fireplace' 'star' 'angel' 'sleep' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'ornament' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.41it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.33it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.29it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.29it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.41it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.41it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.33it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.29it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.29it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.41it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting merry unwrap give as we the of to from toy doll ornament snowglobe game night puzzle card advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar beard elf workshop workshop naughty and nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax have family peace joy hope dream wish believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night walk carol sing holiday decorations kaggle of the that it is season cheer cheer'), np.float64(70.37979717263202)]
 parents perplexities : [ 87.58907276 117.86398027 130.97415321 132.00139623  70.37979717
   70.93179276  71.20941195  71.20941195]
@@ -19223,7 +19453,17 @@ parents perplexities : [ 87.58907276 117.86398027 130.97415321 132.00139623  70.
   'fireplace' 'star' 'angel' 'sleep' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'ornament' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.62it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.50it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.44it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.70it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.62it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.50it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.44it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.45it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.70it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting merry unwrap give as we the of to from toy doll ornament snowglobe game night puzzle card advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar beard elf workshop workshop naughty and nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax have family peace joy hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night walk carol sing holiday decorations kaggle of the that it is season cheer cheer'), np.float64(70.10541234668786)]
 parents perplexities : [ 88.62154503 122.08133464 141.06471405  89.66618776  70.10541235
   70.37979717  70.65525591  70.93179276]
@@ -19279,7 +19519,17 @@ parents perplexities : [ 88.62154503 122.08133464 141.06471405  89.66618776  70.
   'chimney' 'star' 'angel' 'sleep' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'ornament' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.41it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.39it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.40it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.51it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.41it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.39it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.40it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.51it/s]
 parents perplexities : [ 98.86447768  96.95226558 105.24068867 106.06610163  70.10541235
   70.37979717  70.37979717  70.65525591]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -19334,7 +19584,17 @@ parents perplexities : [ 98.86447768  96.95226558 105.24068867 106.06610163  70.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.50it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.46it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.43it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.44it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.44it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.70it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.50it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.46it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.43it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.44it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.44it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.70it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting merry unwrap give as we the of to from toy doll ornament snowglobe game night puzzle card advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar beard elf workshop workshop naughty and nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax have family peace joy hope dream wish believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney kaggle star angel sleep night walk carol sing holiday decorations of the that it is season cheer cheer'), np.float64(69.55984769951485)]
 parents perplexities : [101.2089812  111.59137366  96.57428452  86.56862916  69.5598477
   70.10541235  70.37979717  70.37979717]
@@ -19390,7 +19650,17 @@ parents perplexities : [101.2089812  111.59137366  96.57428452  86.56862916  69.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'kaggle' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.63it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.49it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.42it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.40it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.63it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.49it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.42it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.40it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting merry unwrap give as we the of to from toy doll ornament snowglobe game night puzzle card advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar kaggle beard elf workshop workshop naughty and nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax have family peace joy hope dream wish believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night walk carol sing holiday decorations of the that it is season cheer cheer'), np.float64(69.28865955361954)]
 parents perplexities : [ 75.21212841 109.86130977 100.02986086 104.01459751  69.28865955
   69.5598477   69.5598477   69.5598477 ]
@@ -19446,7 +19716,17 @@ parents perplexities : [ 75.21212841 109.86130977 100.02986086 104.01459751  69.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'walk' 'carol'
   'sing' 'kaggle' 'holiday' 'decorations' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.57it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.48it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.57it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.48it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting merry unwrap give as we the of to from toy doll ornament snowglobe game night puzzle card advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar beard elf workshop workshop naughty and nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax have family peace joy hope dream wish believe wonder magi visit with gifts in stocking chimney fireplace kaggle chimney fireplace star angel sleep night walk carol sing holiday decorations of the that it is season cheer cheer'), np.float64(69.01852867010916)]
 parents perplexities : [88.27604237 75.21212841 86.56862916 76.09870518 69.01852867 69.01852867
  69.01852867 69.28865955]
@@ -19502,7 +19782,17 @@ parents perplexities : [88.27604237 75.21212841 86.56862916 76.09870518 69.01852
   'fireplace' 'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.57it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.50it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.48it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.46it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.45it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.70it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.57it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.50it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.48it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.46it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.45it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.70it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]
 parents perplexities : [108.58138674 145.54258875  87.24759533 119.72006788  69.01852867
   69.01852867  69.01852867  69.01852867]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -19557,7 +19847,17 @@ parents perplexities : [108.58138674 145.54258875  87.24759533 119.72006788  69.
   'chimney' 'fireplace' 'star' 'angel' 'sleep' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'of' 'the' 'that' 'it' 'is' 'season'
   'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.44it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.41it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.44it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.41it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]
 parents perplexities : [ 86.56862916  93.96935796 124.97641006  91.79256013  69.01852867
   69.01852867  69.01852867  69.01852867]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -19612,7 +19912,17 @@ parents perplexities : [ 86.56862916  93.96935796 124.97641006  91.79256013  69.
   'chimney' 'fireplace' 'star' 'angel' 'sleep' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'of' 'the' 'that' 'it' 'is' 'season'
   'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.52it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.44it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.34it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:03,  1.30it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.28it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.61it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.44it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.52it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.44it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.34it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:03,  1.30it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.28it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.37it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.61it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.44it/s]
 parents perplexities : [102.40200065  92.87458178  90.36944839 103.20514949  69.01852867
   69.01852867  69.01852867  69.01852867]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -19667,7 +19977,17 @@ parents perplexities : [102.40200065  92.87458178  90.36944839 103.20514949  69.
   'fireplace' 'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.63it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.62it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.63it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.62it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting have merry unwrap give as we the of to from toy doll ornament snowglobe game night puzzle card advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar kaggle beard elf workshop workshop naughty and nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax peace family joy hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night walk carol sing holiday decorations of the that it is season cheer cheer'), np.float64(68.7494509271083)]
 parents perplexities : [ 88.96839996 118.32528684 110.7229627  119.72006788  68.74945093
   69.01852867  69.01852867  69.01852867]
@@ -19723,7 +20043,17 @@ parents perplexities : [ 88.96839996 118.32528684 110.7229627  119.72006788  68.
   'fireplace' 'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.45it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.40it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.34it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.36it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.40it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.64it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.45it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.40it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.34it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.36it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.37it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.40it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.64it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting have merry unwrap give as we the of to from toy doll ornament snowglobe game night puzzle card advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar kaggle beard elf workshop workshop naughty and nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax peace family joy hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night walk carol sing holiday decorations of that it is the season cheer cheer'), np.float64(68.21443845541918)]
 parents perplexities : [ 98.86447768 127.94014022 111.15632012 118.32528684  68.21443846
   68.74945093  69.01852867  69.01852867]
@@ -19779,7 +20109,17 @@ parents perplexities : [ 98.86447768 127.94014022 111.15632012 118.32528684  68.
   'chimney' 'fireplace' 'star' 'angel' 'sleep' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'of' 'the' 'that' 'it' 'is' 'season'
   'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.46it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.42it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.39it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.40it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.41it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.65it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.46it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.42it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.39it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.40it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.41it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.65it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]
 parents perplexities : [120.18863898 100.02986086 120.65904401 123.03883042  68.21443846
   68.48142222  68.48142222  68.74945093]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -19834,7 +20174,17 @@ parents perplexities : [120.18863898 100.02986086 120.65904401 123.03883042  68.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'of' 'the' 'that' 'it' 'is' 'season'
   'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.60it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.51it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.37it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.60it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.51it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.37it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting have merry unwrap give as we the of to from toy doll ornament snowglobe game night puzzle card advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar kaggle beard elf workshop workshop naughty and nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax family peace joy hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night walk carol sing holiday decorations of that it is the season cheer cheer'), np.float64(67.9484955630781)]
 parents perplexities : [195.84896002 123.52039078  83.5780771  102.40200065  67.94849556
   68.21443846  68.48142222  68.48142222]
@@ -19890,7 +20240,17 @@ parents perplexities : [195.84896002 123.52039078  83.5780771  102.40200065  67.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the' 'season'
   'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.41it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.36it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.35it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.35it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.39it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.64it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.41it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.36it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.35it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.35it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.39it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.64it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]
 parents perplexities : [ 94.33714363 131.48677155  88.96839996  82.604363    67.94849556
   67.94849556  68.21443846  68.21443846]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -19945,7 +20305,17 @@ parents perplexities : [ 94.33714363 131.48677155  88.96839996  82.604363    67.
   'fireplace' 'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.45it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.37it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.32it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.45it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.37it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.32it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
 best genome : [np.str_('the grinch eat not laugh you scrooge and hohoho yuletide greeting have merry unwrap give as we the of to from toy doll ornament snowglobe game puzzle card advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar kaggle beard elf workshop workshop naughty and nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax peace family joy hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night night walk carol sing holiday decorations of that it is the season cheer cheer'), np.float64(67.1568716116849)]
 parents perplexities : [90.36944839 98.47904161 86.90744919 98.09510821 67.15687161 67.94849556
  67.94849556 68.21443846]
@@ -20001,7 +20371,17 @@ parents perplexities : [90.36944839 98.47904161 86.90744919 98.09510821 67.15687
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the' 'season'
   'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.44it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.45it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.34it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.28it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.28it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.38it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.44it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.45it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.34it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.28it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.28it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.38it/s]
 parents perplexities : [106.48123261  72.33079702  93.23808262  82.92766734  67.15687161
   67.15687161  67.41971618  67.41971618]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -20056,7 +20436,17 @@ parents perplexities : [106.48123261  72.33079702  93.23808262  82.92766734  67.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.42it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.32it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.29it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.41it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.42it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.32it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.29it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.41it/s]
 parents perplexities : [143.84696624  88.62154503  83.90519244 114.68480049  67.15687161
   67.15687161  67.41971618  67.41971618]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -20111,7 +20501,17 @@ parents perplexities : [143.84696624  88.62154503  83.90519244 114.68480049  67.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.48it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.37it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:03,  1.33it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.35it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.39it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.63it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.48it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.37it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:03,  1.33it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.35it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.39it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.63it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]
 parents perplexities : [130.46353338  88.96839996 131.48677155  95.44916003  67.15687161
   67.15687161  67.41971618  67.41971618]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -20166,7 +20566,17 @@ parents perplexities : [130.46353338  88.96839996 131.48677155  95.44916003  67.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'the' 'that' 'it' 'is'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.62it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.58it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.48it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.62it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.58it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.48it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.42it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
 parents perplexities : [111.59137366 172.83610059 127.94014022 136.19157034  67.15687161
   67.15687161  67.15687161  67.41971618]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -20221,7 +20631,17 @@ parents perplexities : [111.59137366 172.83610059 127.94014022 136.19157034  67.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.62it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.58it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.44it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.62it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.58it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.44it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
 parents perplexities : [ 81.32370106  85.22650696 113.79231629  96.57428452  71.76791429
   67.15687161  67.15687161  67.15687161  67.15687161]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -20276,7 +20696,17 @@ parents perplexities : [ 81.32370106  85.22650696 113.79231629  96.57428452  71.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.61it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.57it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.48it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.61it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.57it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.48it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
 parents perplexities : [ 72.61389175 102.00277308  77.29708541  75.21212841  97.71267163
   67.15687161  67.15687161  67.15687161  67.15687161]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -20331,7 +20761,17 @@ parents perplexities : [ 72.61389175 102.00277308  77.29708541  75.21212841  97.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the' 'season' 'cheer'
   'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.61it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.57it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.48it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.61it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.57it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.48it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.42it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
 parents perplexities : [ 91.07822476 106.89798837  95.82273748  99.63988139  77.90333397
   67.15687161  67.15687161  67.15687161  67.15687161]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -20386,12 +20826,52 @@ parents perplexities : [ 91.07822476 106.89798837  95.82273748  99.63988139  77.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the' 'season' 'cheer'
   'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.62it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.59it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.43it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.38it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.34it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.35it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.39it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.40it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.39it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.41it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.48it/s]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.50it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.40it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.22it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.62it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.59it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.43it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.38it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.34it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.35it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.39it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.40it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.39it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.41it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.48it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.50it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.40it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.22it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.37it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.43it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]
 parents perplexities : [ 994.60308696 1042.33508572  919.8574846  1022.17450018   67.15687161
    67.15687161   67.15687161   67.41971618]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.61it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.53it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.50it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.49it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.48it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.49it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.49it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.57it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.61it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.53it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.50it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.49it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.48it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.49it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.49it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.57it/s]
 parents perplexities : [ 88.62154503  92.5124981  151.34034638  77.29708541  67.15687161
   67.15687161  67.15687161  67.15687161]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -20446,7 +20926,17 @@ parents perplexities : [ 88.62154503  92.5124981  151.34034638  77.29708541  67.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the' 'season' 'cheer'
   'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.14s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.16it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.28it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:02,  1.34it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.14s/it]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.16it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.28it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:02,  1.34it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.42it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
 parents perplexities : [127.44134888  78.82163382 108.15806803  73.18340957  67.15687161
   67.15687161  67.15687161  67.15687161]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -20501,7 +20991,17 @@ parents perplexities : [127.44134888  78.82163382 108.15806803  73.18340957  67.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.57it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.50it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.49it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.48it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.47it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.47it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.71it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.57it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.57it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.50it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.49it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.48it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.47it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.47it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.71it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.57it/s]
 parents perplexities : [ 86.90744919  90.72314441 133.03669601 180.42451665  67.15687161
   67.15687161  67.15687161  67.15687161]
 [['the' 'grinch' 'eat' 'not' 'laugh' 'you' 'scrooge' 'and' 'hohoho'
@@ -20556,7 +21056,17 @@ parents perplexities : [ 86.90744919  90.72314441 133.03669601 180.42451665  67.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.40it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.35it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.32it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.34it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.62it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.40it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.35it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.32it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.34it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.37it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.62it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]
 best genome : [np.str_('the grinch eat not you scrooge and hohoho yuletide greeting have merry unwrap give as we the of to from toy doll ornament snowglobe game card puzzle advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar kaggle beard elf workshop workshop naughty and nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax family laugh peace joy hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night night walk carol sing holiday decorations of that it is the season cheer cheer'), np.float64(66.63425269055388)]
 parents perplexities : [117.40447216  72.89809449  81.64199302 109.43300111  66.63425269
   66.89505178  67.15687161  67.15687161]
@@ -20612,7 +21122,17 @@ parents perplexities : [117.40447216  72.89809449  81.64199302 109.43300111  66.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.36it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.31it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.31it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.34it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.40it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.63it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.36it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.31it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.31it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.34it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.40it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.63it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]
 parents perplexities : [116.9467555   92.5124981   76.69555472  90.0171313   66.63425269
   66.89505178  66.89505178  67.15687161]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -20667,7 +21187,17 @@ parents perplexities : [116.9467555   92.5124981   76.69555472  90.0171313   66.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the' 'season' 'cheer'
   'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.70it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:02,  1.67it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.56it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:01,  1.51it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:01,  1.48it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.48it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:04<00:00,  1.72it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:04<00:00,  1.62it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.70it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:02,  1.67it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.56it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:01,  1.51it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:01,  1.48it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.48it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:04<00:00,  1.72it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:04<00:00,  1.62it/s]
 parents perplexities : [111.59137366 108.58138674 125.9566122   83.90519244  66.63425269
   66.89505178  66.89505178  66.89505178]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -20722,7 +21252,17 @@ parents perplexities : [111.59137366 108.58138674 125.9566122   83.90519244  66.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.51it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.51it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.47it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.43it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.45it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.47it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.71it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.51it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.51it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.47it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.43it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.43it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.45it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.47it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.71it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]
 parents perplexities : [148.99403178 133.55738691  72.89809449  85.56007408  66.63425269
   66.89505178  66.89505178  66.89505178]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -20777,7 +21317,17 @@ parents perplexities : [148.99403178 133.55738691  72.89809449  85.56007408  66.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.56it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.48it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.46it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.46it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.47it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.71it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.57it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.56it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.48it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.46it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.46it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.47it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.71it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.57it/s]
 parents perplexities : [ 72.04880597 109.00636227 172.16227649 143.84696624  66.63425269
   66.63425269  66.63425269  66.89505178]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -20832,7 +21382,17 @@ parents perplexities : [ 72.04880597 109.00636227 172.16227649 143.84696624  66.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'of'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.38it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.32it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.29it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.41it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.38it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.32it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.29it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.41it/s]
 parents perplexities : [110.7229627  176.9347906  121.60538462  71.48811771  83.90519244
   66.63425269  66.63425269  66.63425269  66.89505178]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -20887,7 +21447,17 @@ parents perplexities : [110.7229627  176.9347906  121.60538462  71.48811771  83.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.05s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.12it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.19it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.23it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.28it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.34it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.39it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.64it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.37it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.05s/it]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.12it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.19it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.23it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.28it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.34it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.39it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.64it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.37it/s]
 parents perplexities : [ 86.90744919 100.42136666 119.25332357  67.41971618 106.89798837
   66.63425269  66.63425269  66.63425269  66.63425269]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -20942,7 +21512,17 @@ parents perplexities : [ 86.90744919 100.42136666 119.25332357  67.41971618 106.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.35it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.38it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.39it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.51it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.35it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.38it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.39it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.45it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.51it/s]
 best genome : [np.str_('the grinch eat not you scrooge and hohoho yuletide greeting have merry unwrap give as we the of to from toy doll ornament snowglobe game card puzzle advent candle wreath candy fruitcake bake gingerbread cookie peppermint chocolate milk and eggnog sleigh drive reindeer jump polar kaggle beard elf workshop workshop naughty and nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax family laugh joy peace hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night night walk carol sing holiday decorations that it is the season of cheer cheer'), np.float64(65.09067188950593)]
 parents perplexities : [ 92.87458178  97.33172602 113.34868209 164.27839186  65.09067189
   66.63425269  66.63425269  66.63425269]
@@ -20998,7 +21578,17 @@ parents perplexities : [ 92.87458178  97.33172602 113.34868209 164.27839186  65.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'of' 'that' 'it' 'is' 'the'
   'season' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.30it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.31it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.32it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.33it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.33it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.40it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.30it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.31it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.32it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.33it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.33it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.40it/s]
 parents perplexities : [106.89798837  94.33714363 143.84696624  75.80202444  65.09067189
   65.09067189  65.85794013  65.85794013]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21053,7 +21643,17 @@ parents perplexities : [106.89798837  94.33714363 143.84696624  75.80202444  65.
   'chimney' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season'
   'of' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.31it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.39it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.39it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.40it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.40it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.31it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.39it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.39it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.40it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.40it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]
 parents perplexities : [ 75.50650036 101.60510196  86.90744919 120.18863898  65.09067189
   65.09067189  65.34542958  65.34542958]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21108,7 +21708,17 @@ parents perplexities : [ 75.50650036 101.60510196  86.90744919 120.18863898  65.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season'
   'of' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.49it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.43it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.41it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.42it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.43it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.49it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.43it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.41it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.42it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.42it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.43it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.45it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]
 parents perplexities : [150.16260646  76.09870518 111.15632012  91.43469485  65.09067189
   65.09067189  65.09067189  65.09067189]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21163,7 +21773,17 @@ parents perplexities : [150.16260646  76.09870518 111.15632012  91.43469485  65.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season'
   'of' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.56it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.47it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.45it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.45it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.71it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.56it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.49it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.47it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.45it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.45it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.71it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]
 parents perplexities : [ 79.13013297 102.40200065 103.20514949  83.90519244  65.09067189
   65.09067189  65.09067189  65.09067189]
 [['the' 'grinch' 'eat' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21218,7 +21838,17 @@ parents perplexities : [ 79.13013297 102.40200065 103.20514949  83.90519244  65.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season'
   'of' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.37it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.31it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.34it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.39it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.63it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.44it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.37it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.31it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.34it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.39it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.63it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.44it/s]
 parents perplexities : [101.60510196  90.0171313  100.02986086 101.2089812  115.13366411
   65.09067189  65.09067189  65.09067189  65.09067189]
 [['the' 'grinch' 'eat' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21273,7 +21903,17 @@ parents perplexities : [101.60510196  90.0171313  100.02986086 101.2089812  115.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season'
   'of' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.63it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.52it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.47it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.44it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.45it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.70it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.63it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.52it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.47it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.44it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.45it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.46it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.70it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]
 parents perplexities : [112.90677746 106.89798837  79.43983955 119.72006788 114.23768682
   65.09067189  65.09067189  65.09067189  65.09067189]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21328,7 +21968,17 @@ parents perplexities : [112.90677746 106.89798837  79.43983955 119.72006788 114.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season'
   'of' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.63it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.49it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.42it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.39it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.63it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.49it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.42it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.39it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]
 parents perplexities : [ 74.33588057  81.96153075 141.61682573 137.25973406  81.96153075
   65.09067189  65.09067189  65.09067189  65.09067189]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21383,11 +22033,41 @@ parents perplexities : [ 74.33588057  81.96153075 141.61682573 137.25973406  81.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season'
   'of' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.47it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.43it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.42it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.34it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.33it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.34it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.37it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.49it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.47it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.43it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.42it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.68it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.52it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.34it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.33it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.34it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.37it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.42it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.49it/s]
 parents perplexities : [ 874.31218242 1018.18941946   65.09067189   65.09067189   65.09067189
    65.09067189  610.36827225  644.67737638]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.62it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.53it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.50it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.50it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.50it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:01,  1.50it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.50it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.74it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.59it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.62it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.53it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.50it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.50it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.50it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:03<00:01,  1.50it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.50it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.74it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.59it/s]
 parents perplexities : [ 75.21212841 210.11526267  90.0171313   80.06289394  65.09067189
   65.09067189  65.09067189  65.09067189]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21442,7 +22122,17 @@ parents perplexities : [ 75.21212841 210.11526267  90.0171313   80.06289394  65.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season'
   'of' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.12s/it]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.14it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.26it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:02,  1.34it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.40it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:01<00:07,  1.12s/it]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.14it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.26it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:02,  1.34it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.40it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.42it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
 parents perplexities : [156.14440466 132.00139623 100.42136666  82.604363    65.09067189
   65.09067189  65.09067189  65.09067189]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21497,7 +22187,17 @@ parents perplexities : [156.14440466 132.00139623 100.42136666  82.604363    65.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season'
   'of' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.51it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.40it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.42it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.45it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.46it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.47it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.71it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.51it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.40it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.42it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.44it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.45it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.46it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.47it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.71it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
 parents perplexities : [107.73639969 100.42136666  98.86447768  95.07703902  65.09067189
   65.09067189  65.09067189  65.09067189]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21552,7 +22252,17 @@ parents perplexities : [107.73639969 100.42136666  98.86447768  95.07703902  65.
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season'
   'of' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.50it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.50it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.47it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.46it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.45it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.45it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.50it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.50it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.47it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.46it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.45it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.45it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
 best genome : [np.str_('the grinch eat not you scrooge and hohoho yuletide greeting have merry unwrap give as we the of to from toy doll ornament snowglobe game card puzzle advent candle wreath gingerbread bake fruitcake cookie candy peppermint chocolate milk and eggnog sleigh drive reindeer jump polar kaggle beard elf workshop workshop naughty and nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax family laugh peace joy hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night night walk carol sing holiday decorations that it is the season of cheer cheer'), np.float64(64.83690740886694)]
 parents perplexities : [91.43469485 98.09510821 95.07703902 95.82273748 64.83690741 65.09067189
  65.09067189 65.09067189]
@@ -21608,7 +22318,17 @@ parents perplexities : [91.43469485 98.09510821 95.07703902 95.82273748 64.83690
   'fireplace' 'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk'
   'carol' 'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season'
   'of' 'cheer' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.55it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.57it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.39it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.39it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.59it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.55it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.57it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.46it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.39it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.39it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.38it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.59it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]
 best genome : [np.str_('the grinch eat not you scrooge and hohoho yuletide greeting have merry unwrap give as we the of to from toy doll ornament snowglobe card game puzzle advent candle wreath cookie bake fruitcake gingerbread candy peppermint chocolate milk and eggnog sleigh drive reindeer jump polar kaggle beard elf workshop workshop naughty and nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax family laugh joy peace hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night night walk carol sing holiday decorations that it is the season of cheer cheer'), np.float64(64.08153455750669)]
 parents perplexities : [ 87.24759533 117.86398027  86.90744919  79.43983955  64.08153456
   64.08153456  64.08153456  64.33234259]
@@ -21664,7 +22384,17 @@ parents perplexities : [ 87.24759533 117.86398027  86.90744919  79.43983955  64.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of' 'cheer'
   'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.52it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.52it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.46it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.45it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.44it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.52it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.52it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.46it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.45it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.44it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
 best genome : [np.str_('the grinch eat not you scrooge and hohoho yuletide greeting have merry unwrap give as we the of to from toy doll ornament snowglobe game card puzzle advent candle wreath cookie bake fruitcake gingerbread candy peppermint chocolate milk and eggnog sleigh drive reindeer jump polar kaggle beard elf workshop workshop naughty nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax family laugh joy peace hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night night walk carol sing holiday decorations that it is the season of cheer and cheer'), np.float64(63.83170433047907)]
 parents perplexities : [94.33714363 69.83209725 78.208239   85.22650696 63.83170433 64.08153456
  64.08153456 64.08153456]
@@ -21720,7 +22450,17 @@ parents perplexities : [94.33714363 69.83209725 78.208239   85.22650696 63.83170
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of' 'cheer'
   'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.42it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.35it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.35it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.40it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.41it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.48it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.48it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.42it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.35it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.35it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.40it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.41it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.66it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.48it/s]
 best genome : [np.str_('the grinch eat not you scrooge and hohoho yuletide greeting have merry unwrap give as we the of to from toy doll ornament snowglobe card game puzzle advent candle wreath cookie bake fruitcake gingerbread candy peppermint chocolate milk and eggnog sleigh drive reindeer jump polar kaggle beard elf workshop workshop naughty nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax family laugh joy peace hope wish dream believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel sleep night night walk carol sing holiday decorations that it is the season of cheer and cheer'), np.float64(63.582848099201826)]
 parents perplexities : [101.2089812  124.00383592 116.9467555   77.29708541  63.5828481
   63.83170433  64.08153456  64.08153456]
@@ -21776,7 +22516,17 @@ parents perplexities : [101.2089812  124.00383592 116.9467555   77.29708541  63.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of' 'cheer'
   'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.53it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.47it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.45it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.44it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.53it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.47it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.45it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.45it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.44it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.44it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.69it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
 parents perplexities : [ 69.5598477  108.58138674  88.96839996 100.02986086  63.5828481
   63.83170433  64.08153456  64.08153456]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21831,7 +22581,17 @@ parents perplexities : [ 69.5598477  108.58138674  88.96839996 100.02986086  63.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of' 'cheer'
   'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.61it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.51it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.49it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.47it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.47it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.47it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.71it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.61it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:01<00:03,  1.51it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.49it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.47it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.47it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.47it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.71it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]
 parents perplexities : [120.18863898  96.57428452  93.96935796  69.28865955  63.5828481
   63.83170433  63.83170433  64.08153456]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21886,7 +22646,17 @@ parents perplexities : [120.18863898  96.57428452  93.96935796  69.28865955  63.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of' 'cheer'
   'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:03<00:12,  2.05s/it]Loading checkpoint shards:  38%|███▊      | 3/8 [00:04<00:07,  1.47s/it]Loading checkpoint shards:  50%|█████     | 4/8 [00:05<00:04,  1.21s/it]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:06<00:03,  1.05s/it]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:06<00:01,  1.06it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:07<00:00,  1.14it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.37it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.01it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:03<00:12,  2.05s/it]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:04<00:07,  1.47s/it]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:05<00:04,  1.21s/it]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:06<00:03,  1.05s/it]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:06<00:01,  1.06it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:07<00:00,  1.14it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.37it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:07<00:00,  1.01it/s]
 parents perplexities : [ 84.56326902  90.36944839  84.56326902 109.43300111  63.5828481
   63.83170433  63.83170433  63.83170433]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21941,7 +22711,17 @@ parents perplexities : [ 84.56326902  90.36944839  84.56326902 109.43300111  63.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of' 'cheer'
   'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.58it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.45it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.33it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:03,  1.31it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.31it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.40it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.58it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.45it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.33it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:03,  1.31it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.30it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.31it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.40it/s]
 parents perplexities : [107.31637527 104.01459751  74.91890411  96.95226558  63.5828481
   63.83170433  63.83170433  63.83170433]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -21996,7 +22776,17 @@ parents perplexities : [107.31637527 104.01459751  74.91890411  96.95226558  63.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of' 'cheer'
   'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.56it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.50it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.40it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.38it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.34it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.35it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.56it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.50it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.40it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.38it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.34it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.35it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]
 parents perplexities : [ 98.09510821 114.23768682 116.49082331 106.89798837 127.94014022
   63.5828481   63.83170433  63.83170433  63.83170433]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -22051,7 +22841,17 @@ parents perplexities : [ 98.09510821 114.23768682 116.49082331 106.89798837 127.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of' 'cheer'
   'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.38it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.26it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.40it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.38it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.26it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.40it/s]
 parents perplexities : [ 91.07822476  78.82163382 109.43300111 104.42169914 139.96693974
   63.5828481   63.83170433  63.83170433  63.83170433]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -22106,7 +22906,17 @@ parents perplexities : [ 91.07822476  78.82163382 109.43300111 104.42169914 139.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of' 'cheer'
   'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.41it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.34it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.26it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.23it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.22it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.21it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.24it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.47it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.33it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.41it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.34it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.26it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.23it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.22it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.21it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.24it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.47it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.33it/s]
 parents perplexities : [ 98.09510821  71.48811771  96.95226558  86.90744919 167.51849281
   63.5828481   63.83170433  63.83170433  63.83170433]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -22161,11 +22971,41 @@ parents perplexities : [ 98.09510821  71.48811771  96.95226558  86.90744919 167.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of' 'cheer'
   'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.58it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.50it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.40it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.38it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.36it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.34it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.02it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.10it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.13it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.18it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.23it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.27it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.51it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.29it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.58it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.50it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.40it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.38it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.36it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.34it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.56it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.34it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:05,  1.02it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:04,  1.10it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.13it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:04<00:02,  1.18it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:05<00:01,  1.23it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.27it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.51it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:06<00:00,  1.29it/s]
 parents perplexities : [857.40145401 960.24407794 975.36572185 927.07201627  63.5828481
   63.83170433  63.83170433  63.83170433]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.40it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.33it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.34it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.36it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.38it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.61it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.40it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.33it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.34it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.36it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.37it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.38it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.38it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.61it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.45it/s]
 parents perplexities : [79.43983955 98.47904161 88.96839996 75.50650036 63.5828481  63.5828481
  63.83170433 63.83170433]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -22220,7 +23060,17 @@ parents perplexities : [79.43983955 98.47904161 88.96839996 75.50650036 63.58284
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of' 'cheer'
   'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.65it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.54it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.42it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.35it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.35it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.48it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.65it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.54it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.42it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.35it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.35it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.58it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.48it/s]
 best genome : [np.str_('the grinch eat not you scrooge and hohoho yuletide greeting have merry unwrap give as we the of to from toy doll ornament snowglobe card game puzzle advent candle wreath cookie bake fruitcake gingerbread candy peppermint chocolate milk and eggnog sleigh drive reindeer jump polar kaggle beard elf workshop workshop naughty nice wrapping paper bow ornament nutcracker poinsettia holly mistletoe jingle relax family laugh joy peace sleep dream wish hope believe wonder magi visit with gifts in stocking chimney fireplace fireplace chimney star angel night night walk carol sing holiday decorations that it is the season of cheer and cheer'), np.float64(62.3530444922685)]
 parents perplexities : [102.80279075  67.68358948  70.65525591 104.83039411  62.35304449
   63.33496207  63.5828481   63.5828481 ]
@@ -22276,7 +23126,17 @@ parents perplexities : [102.80279075  67.68358948  70.65525591 104.83039411  62.
   'chimney' 'star' 'angel' 'sleep' 'night' 'night' 'walk' 'carol' 'sing'
   'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of' 'cheer'
   'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.40it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.30it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.27it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.25it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.23it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.22it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.33it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.64it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.40it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.30it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.27it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.25it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.23it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.22it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.33it/s]
 parents perplexities : [89.66618776 91.43469485 91.79256013 85.22650696 62.35304449 63.33496207
  63.33496207 63.33496207]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -22331,7 +23191,17 @@ parents perplexities : [89.66618776 91.43469485 91.79256013 85.22650696 62.35304
   'fireplace' 'chimney' 'star' 'angel' 'night' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of'
   'cheer' 'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.43it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.37it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.33it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.33it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.43it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.37it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.34it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.33it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.33it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.33it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.55it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
 parents perplexities : [ 90.36944839  69.28865955 107.31637527  88.96839996  62.35304449
   62.59708741  63.08804245  63.33496207]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -22386,7 +23256,17 @@ parents perplexities : [ 90.36944839  69.28865955 107.31637527  88.96839996  62.
   'fireplace' 'chimney' 'star' 'angel' 'night' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of'
   'cheer' 'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.49it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.48it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.36it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.31it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.49it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.48it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.36it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.30it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.31it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
 parents perplexities : [ 69.83209725 106.06610163 128.44088377  83.5780771   62.35304449
   62.59708741  62.84208548  62.84208548]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -22441,7 +23321,17 @@ parents perplexities : [ 69.83209725 106.06610163 128.44088377  83.5780771   62.
   'fireplace' 'chimney' 'star' 'angel' 'night' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of'
   'cheer' 'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.36it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.28it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.40it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.47it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.36it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.28it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.30it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.31it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.32it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.32it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.54it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.40it/s]
 parents perplexities : [ 73.75739416 154.32526725  83.25223705  98.47904161  62.35304449
   62.59708741  62.84208548  62.84208548]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -22496,7 +23386,17 @@ parents perplexities : [ 73.75739416 154.32526725  83.25223705  98.47904161  62.
   'chimney' 'chimney' 'star' 'angel' 'night' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of'
   'cheer' 'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.57it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.51it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.41it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.38it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.39it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.63it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.49it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.57it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.51it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.41it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.38it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.37it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.39it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.63it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.49it/s]
 parents perplexities : [72.89809449 87.24759533 98.86447768 91.43469485 72.04880597 62.35304449
  62.59708741 62.59708741 62.84208548]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -22551,7 +23451,17 @@ parents perplexities : [72.89809449 87.24759533 98.86447768 91.43469485 72.04880
   'chimney' 'chimney' 'star' 'angel' 'night' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of'
   'cheer' 'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.37it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.31it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.36it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.60it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.46it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.37it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.31it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:03<00:03,  1.29it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.27it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.31it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.36it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.60it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.42it/s]
 parents perplexities : [ 78.208239   112.02812995  78.208239   103.60908303  79.43983955
   62.35304449  62.59708741  62.59708741  62.59708741]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -22606,7 +23516,17 @@ parents perplexities : [ 78.208239   112.02812995  78.208239   103.60908303  79.
   'chimney' 'chimney' 'angel' 'star' 'night' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of'
   'cheer' 'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.62it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.54it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.39it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.37it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.38it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.40it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.64it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.62it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.54it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.39it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.37it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.38it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.40it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.64it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]
 parents perplexities : [86.56862916 97.33172602 71.48811771 97.33172602 76.09870518 62.35304449
  62.59708741 62.59708741 62.59708741]
 [['the' 'grinch' 'eat' 'not' 'you' 'scrooge' 'and' 'hohoho' 'yuletide'
@@ -22661,4 +23581,38 @@ parents perplexities : [86.56862916 97.33172602 71.48811771 97.33172602 76.09870
   'chimney' 'chimney' 'angel' 'star' 'night' 'night' 'walk' 'carol'
   'sing' 'holiday' 'decorations' 'that' 'it' 'is' 'the' 'season' 'of'
   'cheer' 'and' 'cheer']]
-Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.63it/s]Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.52it/s]Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.43it/s]Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.63it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:03,  1.52it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.45it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.43it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.43it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.67it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.53it/s]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:05,  1.35it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.28it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.32it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.38it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.38it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:05<00:00,  1.41it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.65it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.47it/s]
+parents perplexities : [ 888.08059588 1105.23415889   62.35304449  916.27130013   62.59708741
+   62.59708741   62.59708741  652.27662929]
+
+Loading checkpoint shards:   0%|          | 0/8 [00:00<?, ?it/s]
+Loading checkpoint shards:  12%|█▎        | 1/8 [00:00<00:04,  1.61it/s]
+Loading checkpoint shards:  25%|██▌       | 2/8 [00:01<00:04,  1.46it/s]
+Loading checkpoint shards:  38%|███▊      | 3/8 [00:02<00:03,  1.42it/s]
+Loading checkpoint shards:  50%|█████     | 4/8 [00:02<00:02,  1.41it/s]
+Loading checkpoint shards:  62%|██████▎   | 5/8 [00:03<00:02,  1.41it/s]
+Loading checkpoint shards:  75%|███████▌  | 6/8 [00:04<00:01,  1.41it/s]
+Loading checkpoint shards:  88%|████████▊ | 7/8 [00:04<00:00,  1.41it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.64it/s]
+Loading checkpoint shards: 100%|██████████| 8/8 [00:05<00:00,  1.50it/s]

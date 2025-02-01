@@ -685,8 +685,3 @@ states = [copy.deepcopy(sample5_config) for i in range(1)]
 print("starting optimization")
 
 best_solutions, best_energies, log_scores = sa_optimizer.solve_batch(states)
-
-import pickle
-
-with open("SA_best.pkl", "wb") as f :
-    pickle.dump(best_solutions)
